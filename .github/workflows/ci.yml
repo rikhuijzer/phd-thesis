@@ -32,6 +32,7 @@ jobs:
           mv eb_garamond/EBGaramond* ~/.local/share/fonts/
           ls -ahl ~/.local/share/fonts/
           fc-cache -fv
+          fc-list | grep "EB Garamond"
           typst fonts | grep "EB Garamond"
 
       - run: mkdir public
