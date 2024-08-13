@@ -1,0 +1,74 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          DIR="$(pwd)"
+          export TYPST_INSTALL="$DIR/.typst"
+          curl -fsSL https://typst.community/typst-install/install.sh | sh
+          echo "$TYPST_INSTALL/bin" >> $GITHUB_PATH
+
+      - run: |
+          wget -O EB_Garamond.zip https://font.download/dl/font/eb-garamond-2.zip
+          unzip -d eb_garamond/ EB_Garamond.zip
+          mv eb_garamond ~/.local/share/fonts/
+          fc-cache -fv
+          typst fonts | grep "EB Garamond"
+
+      - run: mkdir public
+
+      - run: |
+          typst compile thesis.typ
+          mv thesis.pdf ./public/predicting.pdf
+
+      - run: |
+          cat << EOF > ./public/index.html
+            <!DOCTYPE html>
+            <html>
+            <body>
+
+            <h1>PhD thesis</h1>
+
+            Link to the thesis (PDF):<br>
+            <br>
+            <a href="/predicting.pdf">Predicting Dropout in Special Forces Selection</a>.
+
+            </body>
+            </html>
+          EOF
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
