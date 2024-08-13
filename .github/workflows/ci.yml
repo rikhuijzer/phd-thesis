@@ -33,7 +33,7 @@ jobs:
           ls -ahl ~/.local/share/fonts/
           fc-cache -fv
           fc-list | grep "EB Garamond"
-          typst fonts | grep "EB Garamond"
+          typst fonts --variants | grep "EB Garamond"
 
       - run: mkdir public
 
