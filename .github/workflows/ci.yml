@@ -29,7 +29,7 @@ jobs:
           wget -O EB_Garamond.zip https://font.download/dl/font/eb-garamond-2.zip
           unzip -d eb_garamond/ EB_Garamond.zip
           ls -ahl eb_garamond/
-          mv eb_garamond/EBGaramond* ~/.local/share/fonts/
+          mv eb_garamond/ ~/.local/share/fonts/
           ls -ahl ~/.local/share/fonts/
           fc-cache -fv
           fc-list | grep "EB Garamond"
