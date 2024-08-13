@@ -16,7 +16,6 @@ jobs:
       - uses: actions/checkout@v4
 
       - run: |
-          export TYPST_INSTALL="/usr/local"
           curl -fsSL https://typst.community/typst-install/install.sh | sh
 
       - run: |
