@@ -57,7 +57,7 @@ Taken together, a multidisciplinary approach including both physical and psychol
 An important note about previous research is that many studies report only model explanations, that is, the studies fit a statistical model to the data and report the fitted parameters.
 Interestingly, this approach is also common practice in the field of sport science.
 However, the outcomes produced by such models may have little ability to predict future behaviors, because of overfitting @jauhiainen2022predicting @yarkoni2017choosing @hofman2021integrating.
-Also, many studies only report the results from one statistical model, such as a simple regression or the _t_-test, which largely ignores the statistical progress made since then.
+Also, many studies only report the results from one statistical model, such as a simple regression or the _t_-test, which largely ignores the statistical (and computational) progress made since then.
 Applying more recent analytic techniques, such as model evaluation via cross-validation, could therefore improve research into the selection procedures (e.g., #parencite(<abt2022raising>)).
 
 === Statistical Models from Machine Learning
@@ -79,6 +79,7 @@ Although the purpose of SHAP is to increase transparency and explainability of m
 In other words, the simplified representation is not the same as the model that will be used for decision making.
 This is problematic for researchers and practitioners because the simplification could hide issues related to safety, fairness (e.g., biases), and reliability
 @doshi2017towards @barredo2020explainable.
+This is especially important in the context of selection, where wrong decisions can have a lasting impact on the individual.
 
 Apart from predictive performance and explainability, the stability of models is also an important aspect.
 A stable model is defined as a model which leads to similar conclusions for small changes to data @yu2013stability.
@@ -101,8 +102,7 @@ We compared the models on their predictive performance via average area under th
 
 We recruited 311 participants aged between 20 and 39 (_M_#sub[age] = 26.5, _SD_#sub[age] = 3.8), who were exclusively Dutch males and all part of the selection of the Special Forces of the Royal Netherlands Army.
 Active consent was obtained from all participants and the procedure was approved by the ethical review board of the faculty (code: PSY-1920-S-0512).
-85 data points were lost due to us being unable to match individuals in the different data sources and 21 data points were lost due to missing values.
-In the end, the data preprocessing resulted in a dataset of 274 participants.
+Data preprocessing, which included the removal of participants for which some data was missing, resulted in a dataset of 274 participants.
 Of these participants, 196 dropped out and 78 graduated.
 More information could not be provided due to security reasons.
 
@@ -177,13 +177,21 @@ The second model was a decision tree, fitted via DecisionTree.jl @sadeghi2022dec
 The fourth model was a state-of-the-art Stable and Interpretable Rule Sets (SIRUS) algorithm @benard2021interpretable @huijzer2023sirus.
 The SIRUS model is essentially also a random forest algorithm, but with a small modification such that it is more stable and, therefore, explainable.
 Note that contrary to more continuous models such as linear models, the rules fitted by SIRUS contain hard cutpoints (e.g., _if some variable < 20, then A else B_).
-For more details about the analyses, see the code repository at osf.io#footnote[#link("https://osf.io/c8hdy/?view_only=5d7765e9ffd543d98b51faae4802768a")].
+
+Of these models, the XGBoost is the least explainable while the other three models are all explainable.
+That is, the XGBoost cannot easily be interpreted due the complexity of the model.
+For the decision tree model, despite being explainable, it has the drawback of having a low stability since the split point at the root of the tree tends to vary wildly
+(for details about this phenomenon, see #parencite(<molnar2022interpretable>)).
+The stability of the logistic regression is moderate since the model is highly sensitive to the choice of regularization parameters when using ridge, lasso, or both @hastie2009elements.
+The stability of the XGBoost is high due to the large number of trees in the model which averages out fluctuations.
+Finally, the stability of SIRUS is generally high too since the algorithm was designed such that the structure of the random trees is more stable @benard2021interpretable.
+For more details about the analyses, see the code repository at osf.io#footnote[#link("https://osf.io/c8hdy/")].
 
 == Results
 
 The summary statistics of the variables and correlations for all variables with graduation are respectively shown in Table A1 and Figure A1 and A2 of #textcite(<huijzer2023predicting>).
 The average AUC score and standard errors are shown in #citefig(<fig:auc>).
-To interpret these AUC plots, note that the diagonal line represents random guessing.
+To interpret these ROC curves, note that the diagonal line represents random guessing.
 Next, to create the lines, a model was fitted on one of the cross-validation folds for each fold and used to predict data that the model had not seen during training.
 Then, note that a classification model can use different thresholds, the lower the threshold, the more likely an individual is classified as graduate.
 Finally, for each fold, the line is drawn by increasing the model threshold from 0 to 1 and comparing the model predictions to the true values.
@@ -192,13 +200,14 @@ The AUC score is the averaged area under these curves.
 The XGBoost model had the highest predictive performance, which was followed by the SIRUS model with a tree depth of 1 and at most 30 rules.
 Note that SIRUS with a tree depth of 2 would allow for more complex rules with two elements in the clause (e.g., _if X and Y, then A else B_) instead of only only clause (e.g., _if X, then A else B_).
 However, fitting a SIRUS model with a tree depth of 2 performed consistently worse, which indicated that the model overfitted the data.
-The logistic regression and the decision tree had the lowest predictive performance.
+The logistic regression and the decision tree had slightly lower predictive performance.
 
 #figure(
   [
     #image("../images/auc.svg", width: 100%)
     #note([
-      The different lines show the results for the first 8 folds in the 12-fold cross-validation.
+      The thick lines represent estimates of the average ROC curves over all folds.
+      The smaller lines in gray display the variation on this estimate by showing the the first 8 folds in the 12-fold cross-validation.
       We show only 8 folds because more folds made the plot very cluttered.
       The average Area Under the Curve (AUC) and 1.96 $*$ standard error scores are shown in the bottom right.
     ])
@@ -206,33 +215,19 @@ The logistic regression and the decision tree had the lowest predictive performa
   caption: "Receiver Operating Characteristic (ROC) Curves"
 ) <fig:auc>
 
-All models except the decision tree show that they have a better predictive performance in predicting dropouts than predicting graduates.
-This can be seen by noting that the true positive rate remains 1.0 for most folds even when decreasing the false positive rate, that is, the top right of the plots in Figure #citefig(<fig:auc>).
-Conversely, the false positive rate jumps to 0.1 and higher for many of the folds even when the true positive rate is 0.0.
-
-The XGBoost is the least explainable while the other three models are all explainable.
-That is, the XGBoost cannot easily be interpreted due the complexity of the model.
-For the decision tree model, despite being interpretable, its stability was low since the split point at the root of the tree varied wildly
-(for details about this phenomenon, see #parencite(<molnar2022interpretable>)).
-The stability of the logistic regression is moderate since the model is highly sensitive to the choice of hyperparameters @hastie2009elements.
-The stability of the XGBoost is high due to the large number of trees in the model which averages out fluctuations.
-Finally, the stability of SIRUS is the highest since the algorithm was designed such that it the structure of the random trees is more stable @benard2021interpretable.
-
-Altogether, the SIRUS model with a tree depth of 1 combines the best scores on predictive accuracy, explainability, and stability.
-We will therefore further elaborate on this model, thereby highlighting its explainability and stability.
-We have visualized the stability for different bootstrapped samples in Figure #citefig(<fig:sirus>).
-\changed{Here, by bootstrapped samples, we mean that we took multiple random samples, via MLJ.jl @blaom2020mlj, of the data and fitted the model on each of these samples.
+Altogether, while the XGBoost had a good predictive performance, the SIRUS model combined good predictive performance with strong stability and explainability (see Analysis section).
+We therefore decided to analyse the data further via this model.
+To do so, we have visualized the stability for different bootstrapped samples in Figure #citefig(<fig:sirus>).
+Here, by bootstrapped samples, we mean that we took multiple random samples, via MLJ.jl @blaom2020mlj, of the data and fitted the model on each of these samples.
 The bootstrapping allowed us to visualize the uncertainty in the model which, in turn, aids model explanations.
 
 To inspect the model, we go through one example feature in Figure #citefig(<fig:sirus>).
 The figure shows that the 2800 meters time had the most importance when summing the feature importances over the various bootstrapped samples.
-Next, we know that the rules in the SIRUS algorithm with a depth of 1 by default always point to "lower then", for example _if 2800 meters time < 650, then then-score else else-score_ @huijzer2023sirus.
+Next, we know that the rules in the SIRUS algorithm with a depth of 1 by default always point to "lower then", for example _if 2800 meters time < 650_, then _then-score_ else _else-score_ @huijzer2023sirus.
 If the _then-score_ is greater than the _else-score_, then the model predicts that the individual who satisfies the rule is more likely to graduate.
 If the _then-score_ is smaller than _else-score_, then the model predicts that the individual who satisfies the rule is more likely to drop out.
 The plotted rule directions show the direction of this _then-score_ and _else-score_ via $log("else-scores" / "then-scores")$.
 Thus, from the plotted rule directions, we can see that the model found that a higher 2800 meters time was associated with drop out.
-The sizes of the dots in Figure #citefig(<fig:sirus>) indicate the weight that the rule has, so a bigger dot means that a rule plays a larger role in the final outcome.
-These dots are sized in such a way that a doubling in weight means a doubling in surface size.
 The exact locations of the split points (e.g., _if 2800 meters time < 650_) are shown in the right part of the plot and were different in the different bootstrapped samples.
 Most of the split points were at 650 seconds, and some where at 700 seconds.
 We plotted these split points on top of histograms of the data to show the distribution of the data.
