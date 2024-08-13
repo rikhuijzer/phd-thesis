@@ -32,6 +32,7 @@ jobs:
       - run: mkdir public
 
       - run: |
+          typst fonts | grep "EB Garamond"
           typst compile thesis.typ
           mv thesis.pdf ./public/predicting.pdf
 
