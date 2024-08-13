@@ -20,8 +20,7 @@ jobs:
           DIR="$(pwd)"
           export TYPST_INSTALL="$DIR/.typst"
           curl -fsSL https://typst.community/typst-install/install.sh | sh
-          echo "$TYPST_INSTALL" >> $GITHUB_PATH
-          ls "$TYPST_INSTALL"
+          echo "$TYPST_INSTALL/bin" >> $GITHUB_PATH
 
       - run: |
           wget -O EB_Garamond.zip https://font.download/dl/font/eb-garamond-2.zip
