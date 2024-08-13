@@ -1,0 +1,5 @@
+**/*.pdf
+**/*.eps
+venv/
+mwe.*
+titelblad.docx
