@@ -41,8 +41,8 @@ jobs:
       - run: |
           typst fonts | grep "EB Garamond"
           export TYPST_FONT_PATHS="$HOME/.local/share/fonts/eb_garamond"
-          typst compile thesis.typ
-          mv thesis.pdf ./public/predicting.pdf
+          typst compile predicting.typ
+          mv predicting.pdf ./public/predicting.pdf
 
       - run: |
           cat << EOF > ./public/index.html
