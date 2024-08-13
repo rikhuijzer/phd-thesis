@@ -13,10 +13,10 @@
     Selecting the right individuals for a sports team, organization, or military unit has a large influence on the achievements of the organization.
     However, the approaches commonly used for selection are either not reporting predictive performance or not explainable (i.e., black box models).
     In the present study, we introduce a novel approach to selection research, using various machine learning models.
-    We examined 274 recruits, of whom 196 dropped out, who performed a set of physical and psychological tests.
+    We examined 274 special forces recruits, of whom 196 dropped out, who performed a set of physical and psychological tests.
     On this data, we compared four machine learning models on their predictive performance, explainability, and stability.
     We found that a stable rule-based (SIRUS) model was most suitable for classifying dropouts from the special forces selection program.
-    With an averaged area under the curve score of 0.70, this model had a high predictive performance, and was most explainable and stable compared to the alternative models.
+    With an averaged area under the curve score of 0.70, this model had good predictive performance, while remaining explainable and stable.
     Furthermore, we found that both physical and psychological variables were related to dropout.
     More specifically, a higher score on the 2800 meters time, connectedness, and skin folds were most strongly associated with dropping out.
     We discuss how researchers and practitioners can benefit from these insights in sport and performance contexts.
@@ -45,7 +45,7 @@ Here, predictive performance means the estimated ability of the model to predict
 Within the military, the special forces are considered elite.
 Special forces operators need to be able to perform their tasks under difficult circumstances, such as continuous threat, extreme temperatures, isolation, and high task complexity, while being involved in politically sensitive situations @picano2002development.
 Similar to elite sports, this requires extraordinary physical and mental capabilities @vaara2022physical.
-Special forces selection courses worldwide simulate these circumstances in, what some countries call, hell weeks.
+Special forces selection courses worldwide simulate these circumstances in, what some countries call, _hell weeks_.
 During these selection weeks, recruits typically complete exercises and tasks for a large part of the day while being sleep deprived.
 Several studies have been conducted in the past decades to predict success versus dropout in such selection programs of the special forces.
 For example, a study among 800 candidates found that both physical and psychological measures, such as grit and pull-ups, significantly correlated with graduation @farina2019physical.

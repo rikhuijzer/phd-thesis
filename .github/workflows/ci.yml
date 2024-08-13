@@ -54,8 +54,10 @@ jobs:
 
             Link to the thesis (PDF):<br>
             <br>
-            <a href="/predicting.pdf">Predicting Dropout in Special Forces Selection</a>.
-
+            <a href="/predicting.pdf">Predicting Dropout in Special Forces Selection</a>.<br>
+            <br>
+            The source code is available at
+            <a href="https://github.com/rikhuijzer/phd-thesis">GitHub</a>.
             </body>
             </html>
           EOF
