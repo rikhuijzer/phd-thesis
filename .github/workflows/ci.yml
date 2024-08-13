@@ -52,6 +52,23 @@ jobs:
             </html>
           EOF
 
+      - name: Make preview PDF available
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-preview
+          path: ./public/predicting.pdf
+          retention-days: 8
+
+      - name: Create a comment to say that the artifact is ready
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.number }}
+          body: |
+            The PDF was created and uploaded as an artifact. \
+            You can find it on the GitHub Actions Summary page for the GitHub Actions Runs in this PR.
+
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
