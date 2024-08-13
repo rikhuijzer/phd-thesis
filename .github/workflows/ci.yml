@@ -11,6 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     timeout-minutes: 10
+    permissions:
+      # For the comment in the PR saying that the PDF is ready.
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4
