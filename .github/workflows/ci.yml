@@ -11,6 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     timeout-minutes: 10
+    permissions:
+      # For the comment in the PR saying that the PDF is ready.
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4
@@ -25,14 +28,19 @@ jobs:
       - run: |
           wget -O EB_Garamond.zip https://font.download/dl/font/eb-garamond-2.zip
           unzip -d eb_garamond/ EB_Garamond.zip
-          mv eb_garamond ~/.local/share/fonts/
+          ls -ahl eb_garamond/
+          rm -rf eb_garamond/*.otf
+          mv eb_garamond/ ~/.local/share/fonts/
+          ls -ahl ~/.local/share/fonts/
           fc-cache -fv
-          typst fonts | grep "EB Garamond"
+          fc-list | grep "EB Garamond"
+          typst fonts --variants | grep "EB Garamond"
 
       - run: mkdir public
 
       - run: |
           typst fonts | grep "EB Garamond"
+          export TYPST_FONT_PATHS="$HOME/.local/share/fonts/eb_garamond"
           typst compile thesis.typ
           mv thesis.pdf ./public/predicting.pdf
 
@@ -51,6 +59,23 @@ jobs:
             </body>
             </html>
           EOF
+
+      - name: Make preview PDF available
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-preview
+          path: ./public/predicting.pdf
+          retention-days: 8
+
+      - name: Create a comment to say that the artifact is ready
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.number }}
+          body: |
+            The PDF was created and uploaded as an artifact. \
+            You can find it on the GitHub Actions Summary page for the GitHub Actions Runs in this PR.
 
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
