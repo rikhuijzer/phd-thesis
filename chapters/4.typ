@@ -288,7 +288,7 @@ For future research, it would be interesting to investigate how selection decisi
 
 === Conclusions and Practical Implications
 
-In our attempt to predict dropout of special forces recruits by fitting machine learning models, SIRUS had a higher predictive performance than the linear classifier and decision tree, and was more explainable than the state-of-the-art XGBoost classifier.
+In our attempt to predict dropout of special forces recruits by fitting machine learning models, SIRUS had a higher predictive performance than the linear classifier and decision tree, while being more explainable than the state-of-the-art XGBoost classifier.
 In other words, SIRUS achieves a balance between predictive performance, explainability, and stability.
 This together with its ease-of-use make it particularly suitable for many research problems in science, including selection in sports, and organizational and military contexts.
 This better understanding of the model may outperform the accuracy of black-box models in the long run, because it allows researchers to improve the model with their domain expertise and improve their domain expertise with the model.
