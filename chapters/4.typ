@@ -23,14 +23,7 @@
   ]
 )
 
-\
-\
-*TODO: \
-This chapter has to be updated because we changed things during the review.*
-\
-
 == Introduction
-
 
 The achievements of sports clubs, organizations, and military units are largely determined by the performance of the individuals in the organization.
 As a consequence, there is an ever increasing pressure to select the right individuals, that is, individuals who will perform successfully in the future (e.g., #parencite(<hartigh2018selection>)).
@@ -239,7 +232,9 @@ We plotted these split points on top of histograms of the data to show the distr
       This figure indicates the model uncertainty over different bootstrapped samples.
       The leftmost column show the feature importance, the middle column shows the directions of the rules, and the rightmost column shows the split points of the rules and a histogram of the data.
       Specifically, the direction shows $log("else-scores" / "then-scores")$.
-        Finally, the variables are ordered by the sum of the weights of the rules and only the first 15 are shown.
+      The sizes of the dots indicate the weight that the rule has, so a bigger dot means that a rule plays a larger role in the final outcome.
+      These dots are sized in such a way that a doubling in weight means a doubling in surface size.}
+      Finally, the variables are ordered by the sum of the weights of the rules and only the first 15 are shown.
     ])
   ],
   caption: "Rules used by the Rule-Based Classifier in Different Folds"
@@ -255,25 +250,22 @@ The purpose of the current study was to determine how well we could predict drop
 To do so, we compared a linear, decision tree, XGBoost, and SIRUS classifier.
 Of the four models, the XGBoost had the best predictive performance.
 This is in line with earlier research that found that XGBoost is a powerful algorithm in a wide array of tasks ranging from predicting Tweet engagements @anelli2020recsys to predicting injuries in competitive runners @lovdal2021injury.
-However, XGBoost was less explainable than SIRUS.
-The difference between the two was that the SIRUS algorithm simplifies the model and then uses this model for both explanations and predictions.
+However, XGBoost is less explainable than SIRUS.
+The difference between the two is that the SIRUS algorithm simplifies the model and then uses this model for both explanations and predictions.
 In contrast, model explainability methods typically use a simplified representation for explanations and the complex model for predictions.
-This difference between explanations and predictions could hide biases or reliability issues.
-Next, the logistic regression, which is most familiar to sport and performance scientists, was explainable, but not very stable and one of the poorest performing models.
-The general instability of the logistic model is an issue that has been described by #textcite(<hastie2009elements>).
-Furthermore, the decision tree was explainable but not stable
+This difference between explanations and predictions could hide issues related to safety, fairness (e.g., biases), and reliability which is especially problematic in the context of selection, where wrong decisions can have a lasting impact on the individual.
+Next, the logistic regression, which is most familiar to sport and performance scientists, was explainable, but not very stable and performed slightly poorer than the SIRUS model.
+The general instability of the logistic model is an issue that has been described by @hastie2009elements.
+Furthermore, the decision tree is explainable but not stable
 (see #parencite(<molnar2022interpretable>)).
-The only algorithm that scored high on all aspects was the SIRUS algorithm by achieving a good predictive performance while retaining explainability and stability.
+Together, the algorithm that displayed the best combination on all aspects was the SIRUS algorithm by achieving a good predictive performance and stability, while remaining explainable.
 
-The purpose of the models was to predict dropouts in advance, that is, before the start of the selection period.
-From the ROC curves, see Figure #citefig(<fig:auc>), it could be seen that there is a high variance on the predictive performance of the tested models.
-A likely reason for this is that the dataset was relatively small compared to the number of variables.
-It could also be seen that} the models were better able to deselect dropouts than to select graduates, see Figure #citefig(<fig:auc>).
-This is in line with expectations from earlier research @hunt2011predicting.
-One reason why predicting dropouts was more attainable than predicting graduates could be that the dropouts could not compensate for their weaknesses by their stengths, since they scored low on multiple aspects.
-Conversely, predicting graduates is less attainable because it is difficult to predict events outside the control of the individual.
-For example, even the physically and mentally fittest candidate can become injured and drop out.
-Conversely, someone who is well below the physical and psychological requirements is very unlikely to graduate.
+The SIRUS algorithm appeared to be able to correctly deselect about 10% to 20% of dropouts, that is, without sending recruits home who would have graduated, depending on the fold (see the top right of the SIRUS ROC in Figure #citefig(<fig:auc>)).
+There is still a considerable amount of variance in the ROC curves, but at least 10% would already be a meaningful number in practice.
+Moreover, the accuracy of the prediction will most likely improve when fitting the model on the full dataset instead of cross-validation folds and when gathering more data over time.
+
+Since the SIRUS model performs relatively well, and is explainable and stable, we can use our domain knowledge to estimate the generalizability of the model.
+With this in mind, the main takeaways from the current model are that candidates who take more than roughly 700 seconds on the 2800 meters, score higher on connectedness, and have higher skin folds are more likely to drop out (see Figure #citefig(<fig:sirus>)).
 
 The SIRUS algorithm appeared to be able to correctly deselect about 15% to 45% of dropouts, that is, without sending recruits home who would have graduated, depending on the fold (see the top right of the SIRUS ROC in Figure #citefig(<fig:auc>)).
 There is still a considerable amount of variance in the ROC curves, but at least 15% would already be a meaningful number in practice.
