@@ -4,24 +4,6 @@
 #pagebreak()
 = Introduction
 #avoid_indent()
-// Context: elite eenheid, juiste mensen selectie, defensie interessant voor innovatie historisch gezien.
-// Proefschrift nieuwe stap met dank aan CS en data science.
-// Iets vertellen over meetplatform, omdat daar ook veel werk in is gaan zitten.
-// Goed voor leescommissie om te weten.
-// Met data kun je voorspellen geschiktheid of niet.
-//
-// I probably should add some statistics to show the problem of overfitting in t-tests.
-//
-// In de volgende hoofdstukken hebben we ...
-// H2 is leuk, maar je wilt ook stability, zie H3.
-//
-// Leescommissie lid gaat in 1 dag door het hele boek lezen.
-//
-// Hoe ga je om met dubbele informatie in de introductie?
-//
-// Ruud: Tijdens het lezen van de hoofdstukken moet alles makkelijk op zijn plek vallen.
-// Schets het kader in the introductie.
-// In het kader, schets wat er momenteel mist of niet goed is.
 Imagine being able to correctly predict those individuals who will graduate from pilot training, Harvard medical school, or even NASA's astronaut program.
 This would have a large impact on the world as it would reduce individuals being disappointed due to being rejected, and as it would reduce the use of resources for organizations.
 Furthermore, selecting the right people would positively influence the organization to which people are selected.

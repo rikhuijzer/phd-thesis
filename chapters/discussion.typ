@@ -5,28 +5,6 @@
 
 = Discussion
 #avoid_indent()
-// Kort doel herhalen.
-// Vanwege dit doel gaan we alle resultaten langs.
-// Korte recap van resultaten per hoofdstuk.
-//
-// Implicaties voor onderzoek: more data, eerder selecteren.
-// (zie Yannick's these voor een mooie opbouw).
-//
-// Praktische implicaties voor applied scientists.
-// Hoe doe je onderzoek in applied science?
-//
-// Conclusie:
-// - Data science skills zijn nuttig.
-// - Fysiek en mentaal kunnen voorspellen.
-// - Visie of quote mag.
-// - Wat heeft dit toegevoegd wat we nog niet wisten.
-//
-// - Taleb over non-linear?
-// Also, we observed in the literature that cutoff points are important.
-// Most likely, dropouts score too bad on one specific thing like is also
-// visible in the rain cloud plots of https://doi.org/10.1037/spy0000336.
-//
-// Toekomstig onderzoek.
 We investigated whether it is possible to predict who will drop out from special forces selection.
 To do so, we gathered data to compare special forces operators with the general population, and special forces dropouts with graduates on personality traits, see Chapter 2.
 We found that successful recruits and operators are typically less neurotic and more conscientious than dropouts compared to the general population.
