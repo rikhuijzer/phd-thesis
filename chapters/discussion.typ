@@ -11,15 +11,16 @@ These results were in line with previous research in high-stakes contexts @mcdon
 However, although we found effects in the expected directions for the dropout versus graduate comparison, they were not significant and had small to medium effect sizes.
 
 These small effect sizes make it difficult to predict who will drop out.
-This is one of the main critiques of much psychological research:
+As other researchers put it:
 The traditional focus on explanations has led to intricate theories that have little (or unknown) ability to predict future behaviors @yarkoni2017choosing.
-Put differently, it could be that the focus on this explanation metric has led the field to aim for explaining behavior and not predicting behavior.
-This could be like a cooking recipe being judged on the number of social media likes alone.
-The food could look very good in images, but not be tasty.
+It could be that the focus on this explanation metric has led the field to aim for explaining behavior and not predicting behavior.
+This is like a car being judged on speed alone.
+For a while this could lead to better cars, but at some point, manufacturers will ignore other important factors such as comfort.
 With this in mind, we continued this thesis by being more focused on predictive performance.
-Note that solely aiming on good predictions (or food taste) does not solve all problems either.
+Note that solely aiming on good predictions (or comfort) does not solve all problems either.
 Too much focus on prediction could lead to intricate models that may lead to unsafe, unfair, or unreliable predictions @doshi2017towards @barredo2020explainable.
-For example, suppose we only focus on predictive performance and the model decides to filter out all individuals born in October because, according to the data the model has seen, they are more likely to drop out.
+For example, to explain how a model can be unfair or unreliable, suppose we only focus on predictive performance and the model decides to filter out all individuals born in October.
+The model does this because it has seen that individuals born in October are more likely to drop out.
 This, so called overfitting, would be an unfair and most likely unreliable prediction.
 To mitigate this, we can focus on both prediction and explanation @hofman2021integrating since overfitting is less likely to happen if we understand why a model makes certain predictions.
 
