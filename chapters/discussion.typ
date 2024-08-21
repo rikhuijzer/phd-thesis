@@ -24,7 +24,7 @@ The model does this because it has seen that individuals born in October are mor
 This, so called overfitting, would be an unfair and most likely unreliable prediction.
 To mitigate this, we can focus on both prediction and explanation @hofman2021integrating since overfitting is less likely to happen if we understand why a model makes certain predictions.
 
-With our renewed focus on predictive performance, we found that not all prediction were suitable for our research, because of a lack of stability, interpretability, or predictive performance.
+With our renewed focus on predictive performance, we found that not all prediction models were suitable for our research, because models had a lower stability, interpretability, or predictive performance.
 In an attempt to improve this, we implemented our own version of the Stable and Interpretable RUle Sets (SIRUS) algorithm, and evaluated its predictive performance on multiple dataset, see Chapter 3.
 In the end, SIRUS scored very similar in predictive performance to linear regression, see Table #citefig(<perf>).
 This was surprising as the linear regression and SIRUS models fit the data very differently.
@@ -45,7 +45,7 @@ When aiming to predict who would drop out, we combined the predictions with mode
 For the predictions, we found that XGBoost performed best in terms of predictive performance.
 However, it was not interpretable because the model is too complex to interpret directly.
 Therefore, interpretations methods are needed which require a simplified representation of the model.
-This could hide biases or reliability issues.
+This simplification could hide biases or reliability issues.
 With the other models, we found that SIRUS performed slightly better than the linear model on our dataset.
 We also found that the SIRUS model was able to predict dropouts with a good accuracy, while retaining stability and interpretability.
 
@@ -53,10 +53,10 @@ Based on the ROC curves, Figure #citefig(<fig:auc>), we suspect that the SIRUS m
 In general, we expect that models are better at predicting dropouts than graduates @hunt2011predicting @taleb2013antifragile.
 This could be because many things have to go right for a recruit to graduate, while only one thing has to go wrong for an individual to drop out.
 There is an infinite number of ways in which the recruit could be hindered from graduating,
-also known _black swan_ events @taleb2010black.
+also known as _black swan_ events @taleb2010black.
 For example, if the recruit breaks a leg or suddenly decides to quit, he will not graduate.
 Maybe the model can predict this by finding a clue in the data, such as a poor running time or a low motivation.
-Conversely, since the data that the model see is so limited, it is much harder to predict that many things will go right.
+Conversely, since the data that the model sees is so limited, it is much harder to predict that everything will go right.
 
 While the results of Chapter 4 are promising, they do not provide information on how recruits actually respond to the high levels of physical and psychological stress during the selection period.
 Having this information could help to predict dropout more accurately.
@@ -69,7 +69,6 @@ After estimating the predictive performance in practice, we found that the model
 In conclusion, to answer the question whether we can predict who will drop out from special forces selection:
 From Chapter 4 and 5, it looks like we can predict dropout reasonably well.
 The average AUC of about 0.7 generally means a reasonable predictive performance (e.g., #parencite(<hosmer2013applied>), p. 177).
-In practice, when filtering out 10% of dropouts in advance, we will likely not lose individuals who would have graduated.
 When following individuals over time, we can sometimes predict dropout multiple weeks in advance and use that to conduct interventions.
 These results are promising.
 Next, it is important to confirm these results in practice since that is the only way to know with certainty how well the model works.
@@ -79,22 +78,23 @@ Next, it is important to confirm these results in practice since that is the onl
 Future research could investigate whether improvements can be made in the predictive performance of psychological questionnaires.
 In our research, traditional psychological measures performed poorer than physical measures or individual questions.
 More specifically, the NEO-PI-3 personality test is widely used and regarded as a good measure with high validity and reliability, but it predicted poorer than physical tests in Chapter 4 and #textcite(<tedeholm2023predictors>).
-This is in contrast to the experiences of both Dutch special forces operators and U.S. Navy SEALs, who reported that individuals with poor physical fitness were sometimes able to finish if they had the right mindset, and that individuals with excellent physical fitness would sometimes drop out due to a wrong mindset.
+This is in contrast to the experiences of both Dutch special forces operators and U.S. Navy SEALs, who reported that psychology played a more important role than physical fitness in their selection.
+They witnessed many individuals with excellent physical fitness drop out, and many individuals with poor physical fitness make it through.
 Similarly, in Chapter 5, the Short Recovery and Stress Scale (SRSS) appeared to perform poorer than the two, newly added, self-efficacy and motivation questions.
 This could be because the self-efficacy and motivation questions were individual questions while the SRSS consisted of multiple questions for each item.
 Individual questions could provide a stronger signal because more questions per item makes it more likely that the signal is averaged out.
 Put differently, the chance that a participant answers "extremely likely" on one question is higher than the chance that a participant answers "extremely likely" on multiple questions.
 This could imply that a high questionnaire validity and reliability does not imply a high predictive performance, at least in the context of special forces selection.
 
-Furthermore, future research could investigate whether it is possible to use individual questions instead of a subscale.
+Future research could investigate whether it is possible to use individual questions instead of a subscale.
 (By a subscale we mean a group of questions that are combined into one score.)
 From an explanation perspective this suggestion might seem counter-intuitive because it would hinder validity evaluations, but from a prediction perspective it could be useful by increasing sensitivity.
 In Chapter 5, the self-efficacy and motivation questions were individual questions which predicted dropout well.
-This could be due to statistical fact that individual questions are more sensitive than a group of questions and therefore better able to detect differences between groups.
+This could be due to the aforementioned statistical fact that individual questions are more sensitive than a group of questions and therefore better able to detect differences between groups.
 Alternatively, it could be due to some questions from a subscale being more applicable to the context than others.
 Fitting models on individual questions could help to detect those questions that are most predictive in the specific context in which it is used.
 Put differently, instead of relying on a set of pre-determined questions, future work could use a data-driven approach to find the most suitable questions for each study.
-Note that this does require a lot of data, as the number of participants should typically be above 10 times as high as the number of questions to prevent overfitting (e.g., #parencite(<peduzzi1996simulation>)).
+Note that this does require sufficient data, as the number of participants should typically be above 10 times as high as the number of questions to prevent overfitting (e.g., #parencite(<peduzzi1996simulation>)).
 
 Relatedly, future research could investigate whether more specific questions or questionnaires could improve predictive performance for special contexts.
 Instead of taking a questionnaire that is widely considered valid and reliable (e.g., the NEO-PI-3) researchers could aim to find those questions or questionnaires that predict well in their specific context,
@@ -113,15 +113,14 @@ For example, as pointed out earlier, falling from a height of 10 meters is more 
 As another example, it looks like scoring lower on an intelligence test was exponentially related to mortality (#parencite(<otoole1990intelligence>), Table 2).
 Another example could be visible in the raincloud plots in Figure 2 of #textcite(<pattyn2024smart>).
 In this figure on Belgian special forces, there are clear cutoff points visible in the data.
-Future research could investigate whether the use of nonlinear models could improve predictive performance.
+Future research could investigate whether the use of models which could fit these patterns better could improve predictive performance.
 A perfect model for such a system could be one which combines the best of linear and tree-based models.
-It would cut the data into different parts, and then use a linear model for each part.
-Model like this exist (e.g., #parencite(<raymaekers2023fast>)), but they might need additional constraints to improve performance on small datasets.
+It would cut the data into different parts, and then use a linear model (or exponential) for each part.
+Models like this exist (e.g., #parencite(<raymaekers2023fast>)), but might need additional constraints to improve performance on small datasets.
 
 Finally, this thesis mentioned the story of the blind men and an elepant.
 The blind men individually come to different (and incorrect) conclusions about what an elephant is.
 When they together look at the elephant from different angles, they come to a much better conclusion.
 This thesis has looked into widely varying methods to predict dropout from special forces selection.
 We used frequentist statistics, Bayesian statistics, machine learning, single-question questionnaire items, and more.
-Hopefully, combining these different perspectives resulted in a more complete picture.
-Hopefully, future research will get us closer to seeing the full elephant.
+Hopefully, combining these different perspectives resulted in a more complete picture, which will allow future researchers to see the full elephant.
