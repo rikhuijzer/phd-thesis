@@ -122,4 +122,5 @@ The blind men individually come to different (and incorrect) conclusions about w
 When they together look at the elephant from different angles, they come to a much better conclusion.
 This thesis has looked into widely varying methods to predict dropout from special forces selection.
 We used frequentist statistics, Bayesian statistics, machine learning, single-question questionnaire items, and more.
-Hopefully, this thesis has looked at the elephant from a few useful angles, and future research will get us closer to seeing it fully.
+Hopefully, combining these different perspectives resulted in a more complete picture.
+Hopefully, future research will get us closer to seeing the full elephant.
