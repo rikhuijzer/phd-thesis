@@ -79,7 +79,7 @@ Future research could investigate whether improvements can be made in the predic
 In our research, traditional psychological measures performed poorer than physical measures or individual questions.
 More specifically, the NEO-PI-3 personality test is widely used and regarded as a good measure with high validity and reliability, but it predicted poorer than physical tests in Chapter 4 and #textcite(<tedeholm2023predictors>).
 This is in contrast to the experiences of both Dutch special forces operators and U.S. Navy SEALs, who reported that individuals with poor physical fitness were sometimes able to finish if they had the right mindset, and that individuals with excellent physical fitness would sometimes drop out due to a wrong mindset.
-Similarly, in Chapter 5, the Short Recovery and Stress Scale (SRSS) appeared to perform poorer than a self-efficacy and a motivation question.
+Similarly, in Chapter 5, the Short Recovery and Stress Scale (SRSS) appeared to perform poorer than the two, newly added, self-efficacy and motivation questions.
 This could be because the self-efficacy and motivation questions were individual questions while the SRSS consisted of multiple questions for each item.
 Individual questions could provide a stronger signal because more questions per item makes it more likely that the signal is averaged out.
 Put differently, the chance that a participant answers "extremely likely" on one question is higher than the chance that a participant answers "extremely likely" on multiple questions.
@@ -96,8 +96,10 @@ Put differently, instead of relying on a set of pre-determined questions, future
 Note that this does require a lot of data, as the number of participants should typically be above 10 times as high as the number of questions to prevent overfitting (e.g., #parencite(<peduzzi1996simulation>)).
 
 Relatedly, future research could investigate whether more specific questions or questionnaires could improve predictive performance for special contexts.
-Instead of taking a questionnaire that is widely considered valid and reliable, researchers could aim to find those questions or questionnaires that predict well in their specific context such as, for example, special forces selection.
-For example, researchers could continuously monitor the predictive performance of questions or questionnaires and drop those that do not predict well while occasionally adding new questions or questionnaires and evaluating those.
+Instead of taking a questionnaire that is widely considered valid and reliable (e.g., the NEO-PI-3) researchers could aim to find those questions or questionnaires that predict well in their specific context,
+such as special forces selection.
+For example, the single self-efficacy and motivation questions that we used in Chapter 5 predicted dropout well.
+Furthermore, researchers could continuously monitor the predictive performance of questions or questionnaires and drop those that do not predict well while occasionally adding new questions or questionnaires and evaluating those.
 This pipeline of adding a new question or questionnaire, evaluating its performance, and adjusting would not be new.
 It is already commonly applied in, for example, self-driving car companies.
 These companies continuously adjust their models because the real world is continuously changing too.
@@ -115,14 +117,9 @@ A perfect model for such a system could be one which combines the best of linear
 It would cut the data into different parts, and then use a linear model for each part.
 Model like this exist (e.g., #parencite(<raymaekers2023fast>)), but they might need additional constraints to improve performance on small datasets.
 
-Finally, if there is one thing this thesis argues for, it is to consider the story of the blind men and an elephant.
+Finally, this thesis mentioned the story of the blind men and an elepant.
 The blind men individually come to different (and incorrect) conclusions about what an elephant is.
 When they together look at the elephant from different angles, they come to a much better conclusion.
-This aligns with how most successful investors think.
-They understand that it is not about being exactly right in a simplified world, but about being roughly right in a complex world @simon1979rational @sutherland2021alchemy.
-As Peter Lynch put it: "if you can add 8 and 8 and can get fairly close to 16, then that is all you need".
-More specifically, future psychology research could improve by combining the information from different statistical approaches, different models, and different perspectives.
-Taken together, this thesis is not saying that the old methods of doing research are wrong.
-Nor is it saying that the new methods are right.
-It is saying that the old methods are not enough, and that the new methods are not enough.
-It is saying that science needs both.
+This thesis has looked into widely varying methods to predict dropout from special forces selection.
+We used frequentist statistics, Bayesian statistics, machine learning, single-question questionnaire items, and more.
+Hopefully, this thesis has looked at the elephant from a few useful angles, and future research will get us closer to seeing it fully.
