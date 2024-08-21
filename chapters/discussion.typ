@@ -50,13 +50,12 @@ We also found that the SIRUS model was able to predict dropouts with a good accu
 
 Based on the ROC curves, Figure #citefig(<fig:auc>), we suspect that the SIRUS model can likely filter out about 10% of dropouts without losing graduates.
 In general, we expect that models are better at predicting dropouts than graduates @hunt2011predicting @taleb2013antifragile.
-For example, if we use a car as an analogy, it is easy to predict that a car with a broken engine, wheel, or door will not make it to the destination.
-Conversely, it is much harder to predict that a car will make it to the destination if we only know that the engine, wheels, and doors work.
-There is an infinite number of ways in which the car could be hindered from reaching the destination,
+This could be because many things have to go right for a recruit to graduate, while only one thing has to go wrong for an individual to drop out.
+There is an infinite number of ways in which the recruit could be hindered from graduating,
 also known _black swan_ events @taleb2010black.
-This does not mean that predicting graduates is impossible, or predicting dropouts is easy.
-For example, maybe there are some facts about that car that are unknown to us.
-Maybe the car with the broken engine is generally more reliable than other cars.
+For example, if the recruit breaks a leg or suddenly decides to quit, he will not graduate.
+Maybe the model can predict this by finding a clue in the data, such as a poor running time or a low motivation.
+Conversely, since the data that the model see is so limited, it is much harder to predict that many things will go right.
 
 While the results of Chapter 4 are promising, they do not provide information on how recruits actually respond to the high levels of physical and psychological stress during the selection period.
 Having this information could help to predict dropout more accurately.
