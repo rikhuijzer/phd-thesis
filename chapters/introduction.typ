@@ -1,7 +1,7 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent
+#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, pagebreak_to_right
 
-#pagebreak()
+#pagebreak_to_right()
 = Introduction
 #avoid_indent()
 Imagine being able to correctly predict those individuals who will graduate from pilot training, Harvard medical school, or even NASA's astronaut program.

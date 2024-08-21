@@ -1,5 +1,5 @@
 #import "style.typ": style
-#import "functions.typ": bib, title, header
+#import "functions.typ": bib, title, header, only
 #show: style.with(
   title: title()
 )

@@ -25,9 +25,17 @@
   [#cite(label, form: "author"), #cite(label, form:"year")]
 }
 
-#let avoid_indent() = [
+#let avoid_indent() = context [
   #v(-0.5cm)
   \
+]
+
+// Ensure that the next page starts on the right.
+#let pagebreak_to_right() = context [
+  #pagebreak()
+  #if calc.even(only(counter(page).get())) [
+    #pagebreak()
+  ]
 ]
 
 #let chapter(

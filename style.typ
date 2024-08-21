@@ -84,17 +84,6 @@
       width: 148mm, // 15.24 cm
       height: 210mm, // 22.86 cm
       margin: (top: 13mm, bottom: 16mm),
-      footer: context {
-        set text(size: 9pt)
-        let num = only(counter(page).get())
-        let is_left_page = calc.even(num)
-        if is_left_page [
-          #num
-        ] else [
-          #h(1fr)
-          #num
-        ]
-      }
   )
 
   show heading: set block(above: 1.4em, below: 1em)
@@ -144,7 +133,23 @@
   let fallback = true
   set text(font: font, fallback: fallback, size: 10pt)
   table_of_contents()
+  pagebreak() // Force blank back page.
   counter(heading).update(0)
+  counter(page).update(0)
+
+  set page(
+        footer: context {
+          set text(size: 9pt)
+          let num = only(counter(page).get())
+          let is_left_page = calc.even(num)
+          if is_left_page [
+            #num
+          ] else [
+            #h(1fr)
+            #num
+          ]
+        }
+  )
 
   set text(font: font, fallback: fallback, size: 10pt, top-edge: 1em)
   show par: set block(spacing: 0.6em)
