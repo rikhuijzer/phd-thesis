@@ -23,8 +23,6 @@ For example, suppose we only focus on predictive performance and the model decid
 This, so called overfitting, would be an unfair and most likely unreliable prediction.
 To mitigate this, we can focus on both prediction and explanation @hofman2021integrating since overfitting is less likely to happen if we understand why a model makes certain predictions.
 
-// Ik zou nog wel even beginnen met dat je in H3 daarom verschillende voorspellingsmodellen hebt geanalyseerd op verschillende data sets, die mogelijk ook relevant zijn voor de KCT data..... Dan kort welke modellen en dan dat het sirus een interessante kandidaat is. Vervolgens kun je verder met dat je in H4 verder bent gegaan met verschillende (combinaties van) psychologische en fysieke factoren die succes/dropout zouden kunnen voorspellen (naast persoonlijkheid ook..... (dus, paar voorbeelden)). En dat je daarbij gebruik hebt gemaakt van technieken uit H3. 
-// (qua structuur staat de discussie al goed. Voor de leesbaarheid kunnen wat bruggetjes tussen hoofdstukken het beter maken. Daar zijn mijn suggesties op gericht.).
 With our renewed focus on predictive performance, we found that not all prediction were suitable for our research, because of a lack of stability, interpretability, or predictive performance.
 In an attempt to improve this, we implemented our own version of the Stable and Interpretable RUle Sets (SIRUS) algorithm, and evaluated its predictive performance on multiple dataset, see Chapter 3.
 In the end, SIRUS scored very similar in predictive performance to linear regression, see Table #citefig(<perf>).

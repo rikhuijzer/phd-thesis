@@ -45,8 +45,6 @@ Currently, one large problem that needs to be solved quickly is selecting the ri
 It is unclear how to solve this, but one step in the right direction could be to gather and analyze more data, which could lead to better predictions in personnel selection.
 In order to do so, we needed to develop software to efficiently gather psychological and physical measures of recruits.
 
-// En daar dan wat over uitleggen (meetinfrastructuur, hoe het tot stand is gekomen, waar het voor gebruikt kan worden,
-
 == Data Collection and Processing
 
 Our data collection was carried out at and made possible by the Dutch Special Forces (_Korps Commandotroepen_ in Dutch).
@@ -67,10 +65,6 @@ A big part of most academic research is entirely dependent on software @mcelreat
 The collection of more data also has an effect on the data processing.
 Manually editing data is feasible for studies with a few dozen participants and a few variables, but become impractical for hundreds of participants and a few dozen variables.
 For the data processing in our research, the Julia programming language @bezanson2017julia was mainly used.
-// Ik zou hier kort beschrijven wat de voordelen van deze taal zijn. En de nadelen dat er nog minder packages zijn, waardoor je zelf packages hebt geschreven en bestaande packages in R en Python hebt aangepast voor Julia. De analyses die in de verschillende studies zijn toegepast, en die zijn gekoppeld aan het meetplatform, zijn dus gebaseerd op nieuwe Julia toepassingen.
-// Ik zou zoiets beschrijven, dan heb je ook gelijk een mooi bruggetje naar het volgende kopje. 
-// In de discussie mag je nog wel wat meer zeggen over je Julia bijdragen  waar het gaat over de wetenschappelijke/praktische bijdragen van het proefschrift.
-// Maar verder zou ik de details toch wel weglaten (sorry, ik weet dat ik ook heb aangegeven dat je best mag laten zien wat je allemaal hebt gedaan, maar dat zou ik dan eerder doen in het beschrijven van het inbouwen van tests in het platform, en hoe die via een tablet simpel afgenomen kunnen worden tijdens de opleiding (dat zou wat meer bij de data collectie passen)...
 This had benefits, but drawbacks as well.
 Benefits were that the language is expressive, which means that it is easy to express complex ideas in a few lines of readable code.
 Julia usually sticks closer to mathematical notation than other languages, which makes it easier to translate mathematical ideas to code.
