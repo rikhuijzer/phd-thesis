@@ -13,7 +13,7 @@ However, although we found effects in the expected directions for the dropout ve
 These small effect sizes make it difficult to predict who will drop out.
 This is one of the main critiques of much psychological research:
 The traditional focus on explanations has led to intricate theories that have little (or unknown) ability to predict future behaviors @yarkoni2017choosing.
-Put differently, it could be that the focus on this explanation metric has led the field to solely aim for explaining behavior predicting behavior.
+Put differently, it could be that the focus on this explanation metric has led the field to aim for explaining behavior and not predicting behavior.
 This could be like a cooking recipe being judged on the number of social media likes alone.
 The food could look very good in images, but not be tasty.
 With this in mind, we continued this thesis by being more focused on predictive performance.
@@ -34,6 +34,9 @@ Similarly, a recruit that takes 10 seconds longer than average on a 2800 meters 
 In theory, the SIRUS model could capture these nonlinear effects better than linear regression.
 This is because the SIRUS model is based on random forests, which functions by finding splitpoints in the data, which do not have to be linear.
 However, we did not find evidence for this when testing the model on the fragile system-based datasets such as the Haberman, breast cancer, and diabetes datasets, see Table #citefig(<perf>).
+There could be many reasons for this.
+One could be that our implementation of the SIRUS model was not optimal.
+Another could be that the datasets were not large enough to detect the more complex patterns.
 
 Next, we tested different models, including the SIRUS model, on a large selection dataset in Chapter 4.
 This dataset consisted of physical measures (e.g., number of push-ups and 2800 meters running time) and psychological measures (e.g., the NEO-PI-3 personality questionnaire) and was gathered in the first week of the selection period.
