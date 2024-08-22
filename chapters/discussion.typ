@@ -69,7 +69,7 @@ After estimating the predictive performance in practice, we found that the model
 In conclusion, to answer the question whether we can predict who will drop out from special forces selection:
 From Chapter 4 and 5, it looks like we can predict dropout reasonably well.
 The average AUC of about 0.7 generally means a reasonable predictive performance (e.g., #parencite(<hosmer2013applied>), p. 177).
-When following individuals over time, we can sometimes predict dropout multiple weeks in advance and use that to conduct interventions.
+When following recruits over time, we can sometimes predict dropout multiple weeks in advance and use that to conduct interventions.
 These results are promising.
 Next, it is important to confirm these results in practice since that is the only way to know with certainty how well the model works.
 

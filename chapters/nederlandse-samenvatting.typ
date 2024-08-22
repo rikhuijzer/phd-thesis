@@ -2,7 +2,6 @@
 #import "../functions.typ": chapter, textcite, parencite, note, avoid_indent
 
 #pagebreak()
-// This doesn't need a special chapter opening page.
 = Nederlanse samenvatting (Dutch Summary)
 #avoid_indent()
 Stelt u zich eens voor dat u vooraf kunt zeggen welke individueen een pilotenopleiding, een Harvard voorselectie, of zelfs in NASA's astronauten selectie kunnen halen.
@@ -32,3 +31,15 @@ Op deze data hebben we vervolgens vier verschillende modellen vergeleken op voor
 We vonden dat het SIRUS model het meest geschikt was voor het voorspellen van uitval.
 Ook vonden we dat fysieke en psychologische data beide gerelateerd waren aan uitval.
 Meer specifiek, een langzamere score op de 2800 meter hardlooptijd, verbondenheid, en een huidplooimeting waren sterk gerelateerd aan uitval.
+
+In hoofdstuk 5 hebben we onderzocht of we de voorspellingen konden verbeteren door de data gedurende de hele opleiding te verzamelen.
+Deze vragenlijsten waren korter, maar werden iedere week afgenomen in plaats van alleen in de eerste week.
+Weer hebben we meerdere machine learning modellen op de data getest.
+In dit geval was een lineare regressie model het meest geschikt voor het voorspellen van uitval.
+Met dit model vonden we dat lagere scores op zelfeffectiviteit en motivatie geassocieerd waren met uitval.
+We vonden ook dat het model in veel gevallen uitval al enkele weken van tevoren kon voorspellen.
+Dit bied mogelijkheden voor het vroegtijdig ingrijpen om uitval te voorkomen.
+
+In conclusie, om de vraag te beantwoorden of we kunnen voorspellen van de special forces opleiding:
+Uit hoofdstuk 4 en 5 lijkt het erop dat we uitval redelijk goed kunnen voorspellen.
+Het volgende doel is om deze resultaten in de praktijk te testen, omdat dat de enige manier is om met zekerheid te weten hoe goed deze technieken werken.
