@@ -19,8 +19,6 @@
 #include "chapters/5.typ"
 #set page(header: header("Discussion"))
 #include "chapters/discussion.typ"
-#set page(header: header("Summary"))
-#include "chapters/summary.typ"
 #set page(header: header("Nederlandse samenvatting"))
 #include "chapters/nederlandse-samenvatting.typ"
 
