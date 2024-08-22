@@ -4,7 +4,7 @@
 #chapter(
   [SIRUS.jl: Interpretable Machine Learning via Rule Extraction],
   label: [
-    Huijzer, R., Blaauw, F. J., Den Hartigh, J. R. (2023).
+    Huijzer, R., Blaauw, F. J., Den Hartigh, R. J. R. (2023).
     SIRUS.jl: Interpretable Machine Learning via Rule Extraction.
     _Journal of Open Source Software_, 8(90), 5786,
     #link("https://doi.org/10.21105/joss.05786")

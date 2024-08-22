@@ -4,7 +4,7 @@
 #chapter(
   [Early Identification of Dropouts During the Special Forces Selection Program],
   label: [
-    Huijzer, R., Blaauw, F. J., De Wit, A., De Jonge, P., & Den Hartigh, R. J. (2024).
+    Huijzer, R., Blaauw, F. J., De Wit, A., De Jonge, P., & Den Hartigh, R. J. R. (2024).
     Early  Identification  of  Dropouts During the Special Forces Selection Program.
     _PsyArXiv_.
     #link("https://doi.org/10.31234/osf.io/nbs6j")
