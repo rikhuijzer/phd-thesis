@@ -53,8 +53,10 @@ However, dropout rates in special forces selection programs are close to 80%
 (e.g., #parencite(<gayton2015prospective>)).
 The military was interested in identifying factors that could predict dropouts and use that to improve the selection process.
 
-To do so, we collected data from recruits during the training program.
-To facilitate this collection, we developed a custom software system that allowed recruits to complete questionnaires online.
+To do so, we collected data from recruits during the training and selection program.
+During this 16-week program, recruits are trained towards becoming a special forces operator and at the same time subjected to grueling physical and psychological challenges.
+Since there is no clear distinction between training and selection in the program, we will use the the terms _training_ and _selection_ interchangeably throughout this thesis.
+To facilitate the data collection, we developed a custom software system that allowed recruits to complete questionnaires online.
 Each recruit was assigned a unique login, granting them access to the system and enabling them to complete the questionnaires.
 The system was designed to streamline the data collection process, allowing researchers to process and analyze pseudonimized data of the recruits.
 In total, this data collection resulted in about 60 000 lines of data in the period from 2019 to 2023 (this number includes missing data).

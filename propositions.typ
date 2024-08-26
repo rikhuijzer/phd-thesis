@@ -15,9 +15,11 @@
   by Rik Huijzer.
 ]
 \
-+ We advocate for computational social scientists to devote more attention to combining prediction and explanation (Hofman et al., 2021).
-+ Psychology's near-total focus on explaining the causes of behavior has led much of the field to be populated by research programs that provide intricate theories of psychological mechanism but that have little (or unknown) ability to predict future behaviors with any appreciable accuracy (Yarkoni & Westfall, 2017).
-+ Machine learning's near-total focus on predictive performance has led much of the field to be populated by research programs that, according to benchmarks, provide accurate models but may lead to unsafe, unfair, or unreliable predictions (this thesis).
++ Psychology's near-total focus on explaining the causes of behavior has led to theories with little (or unknown) ability to accurately predict future behaviors (this thesis).
++ Machine learning's near-total focus on predictive performance has led to accurate models with possibly unsafe, unfair, or unreliable predictions (this thesis).
++ A solution is to combine prediction and explanation (this thesis).
 + We can predict dropout in special forces selection reasonably well, but confirmation in practice is necessary (this thesis).
++ Physical measures better predict dropout in special forces selection than psychological measures (this thesis).
++ It is easier to predict dropout than to predict graduation (this thesis).
 + Recognize reality even when you don't like it. Especially when you don't like it (Charlie Munger).
 + In theory, there is no difference between theory and practice. In practice, there is.
