@@ -76,7 +76,7 @@ Next, it is important to confirm these results in practice since that is the onl
 
 Future research could investigate whether improvements can be made in the predictive performance of psychological questionnaires.
 In our research, traditional psychological measures performed poorer than physical measures or individual questions.
-More specifically, the NEO-PI-3 personality test is widely used and regarded as a good measure with high validity and reliability, but it predicted poorer than physical tests in Chapter 4 and #textcite(<tedeholm2023predictors>).
+More specifically, the NEO-PI-3 personality test is widely used and regarded as a good measure with high validity and reliability, but it predicted poorer than physical tests, such as 2800 meters time, in Chapter 4 and #textcite(<tedeholm2023predictors>).
 This is in contrast to the experiences of both Dutch special forces operators and U.S. Navy SEALs, who reported that psychology played a more important role than physical fitness in their selection.
 They witnessed many individuals with excellent physical fitness drop out, and many individuals with poor physical fitness make it through.
 This could mean that there is still room for improvement in the predictive performance of psychological questionnaires.
@@ -84,16 +84,19 @@ Similarly, in Chapter 5, the Short Recovery and Stress Scale (SRSS) appeared to 
 This could be because the self-efficacy and motivation questions were individual questions while the SRSS consisted of multiple questions for each item.
 Individual questions could provide a stronger signal because more questions per item makes it more likely that the signal is averaged out.
 Put differently, the chance that a participant answers "extremely likely" on one question is higher than the chance that a participant answers "extremely likely" on multiple questions.
+It could also be that participants are less willing to participate in questions which appear to be similar.
+Especially in a longitudinal study, participants might lose interest when they need to answer multiple similar questions repeatedly.
 This could imply that a high questionnaire validity and reliability does not imply a high predictive performance, at least in the context of special forces selection.
+This was also found in another longitudinal study by #textcite(<song2023examining>).
+In this study, the authors found that single items obtained significant predictive validity, and would sometimes show a larger effect size than using multiple items.
+Also, they found that multiple items would only perform moderately better than single items.
 
 Future research could investigate whether it is possible to use individual questions instead of a subscale#footnote[
 A _subscale_ here means a group of questions that are combined into one score.
 ].
-From an explanation perspective this suggestion might seem counter-intuitive because it would hinder validity evaluations, but from a prediction perspective it could be useful by increasing sensitivity.
+From an explanation perspective this suggestion might seem counter-intuitive because it would hinder reliability evaluations, but from a prediction perspective it could be useful by increasing sensitivity.
 In Chapter 5, the self-efficacy and motivation questions were individual questions which predicted dropout well.
-This could be due to the aforementioned statistical fact that individual questions are more sensitive than a group of questions and therefore better able to detect differences between groups.
-Alternatively, it could be due to some questions from a subscale being more applicable to the context than others.
-Fitting models on individual questions could help to detect those questions that are most predictive in the specific context in which it is used.
+Fitting models on such individual questions could help to detect those questions that are most predictive in the specific context in which it is used.
 Put differently, instead of relying on a set of pre-determined questions, future work could use a data-driven approach to find the most suitable questions for each study.
 Note that this does require sufficient data, as the number of participants should typically be above 10 times as high as the number of questions to prevent overfitting (e.g., #parencite(<peduzzi1996simulation>)).
 
@@ -101,10 +104,6 @@ Relatedly, future research could investigate whether more specific questions or 
 Instead of taking a questionnaire that is widely considered valid and reliable (e.g., the NEO-PI-3) researchers could aim to find those questions or questionnaires that predict well in their specific context,
 such as special forces selection.
 For example, the single self-efficacy and motivation questions that we used in Chapter 5 predicted dropout well.
-This was also found in a longitudinal study by #textcite(<song2023examining>).
-In this study, the authors found that single items obtained significant predictive validity, and would sometimes show a larger effect size than using multiple items.
-Also, they found that multiple items would only perform moderately better than single items.
-
 With this, researchers could continuously monitor the predictive performance of questions or questionnaires and drop those that do not predict well while occasionally adding new questions or questionnaires and evaluating those.
 This pipeline of adding a new question or questionnaire, evaluating its performance, and adjusting would not be new.
 It is already commonly applied in, for example, social media, search engine, or self-driving car companies.
