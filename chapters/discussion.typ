@@ -101,7 +101,11 @@ Relatedly, future research could investigate whether more specific questions or 
 Instead of taking a questionnaire that is widely considered valid and reliable (e.g., the NEO-PI-3) researchers could aim to find those questions or questionnaires that predict well in their specific context,
 such as special forces selection.
 For example, the single self-efficacy and motivation questions that we used in Chapter 5 predicted dropout well.
-Furthermore, researchers could continuously monitor the predictive performance of questions or questionnaires and drop those that do not predict well while occasionally adding new questions or questionnaires and evaluating those.
+This was also found in a longitudinal study by #textcite(<song2023examining>).
+In this study, the authors found that single items obtained significant predictive validity, and would sometimes show a larger effect size than using multiple items.
+Also, they found that multiple items would only perform moderately better than single items.
+
+With this, researchers could continuously monitor the predictive performance of questions or questionnaires and drop those that do not predict well while occasionally adding new questions or questionnaires and evaluating those.
 This pipeline of adding a new question or questionnaire, evaluating its performance, and adjusting would not be new.
 It is already commonly applied in, for example, social media, search engine, or self-driving car companies.
 These companies continuously adjust their models because the real world is continuously changing too.

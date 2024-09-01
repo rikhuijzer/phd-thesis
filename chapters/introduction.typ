@@ -84,7 +84,7 @@ For example, when adding the standard deviation to a data science package, there
 
 We heavily based our research on earlier studies with the similar measures in similar settings, and theoretical knowledge from psychology about personality and sport science.
 However, much discussion exists on the validity of the typically used statistical analyses.
-This was troubling for our studies, which were quantitative and hence relied fully on these analyses.
+This was challenging for our studies, which were quantitative and hence relied fully on these analyses.
 Put differently, the core of the argument in quantitative research is the use of statistics, so researchers who question the validity of these statistics question the core of the research.
 
 Now some argue that it is best to stick to the well-known and well-established statistical tests regardless of the criticisms.
@@ -103,7 +103,7 @@ while another argues for visualizing the analysis and inspecting the plots
 (e.g., #parencite(<tendeiro2019review>), #parencite(<gelman2021bayesian>)).
 This latter approach is the most computationally expensive, but does allow for greater flexibility in model definitions and is arguably more intuitive since model assumptions are more explicit and model interpretations more visual.
 
-With all the these statistical options, it was often not clear which model should be used for which study.
+With all the these statistical options, it was often not clear which model should be used for which study during our research.
 This is in line with the "no free lunch" theorem @wolpert1997no.
 The theory states that there is no single statistical model that is the best fit for all studies.
 This means that we have to choose the best model for each study, but this is not easy since we do not know which model is the best.
@@ -119,8 +119,8 @@ Although multiple models and variable associations do provide insights, they wer
 Such variable associations belong to the _inference_, or _explanation_, paradigm @hofman2021integrating.
 This paradigm is what Galton and Fisher used a century ago.
 For example, analyzing which variables are associated with the outcome via a _t_-test is about explaining the data.
-However, we wanted to apply our research to the selection, but could not since associations do not indicate how accurate our predictions would be.
-Even worse, associations can be misleading and suffer from _overfitting_.
+However, we wanted to apply our research to the selection, but the associations did not indicate how accurate our predictions would be.
+Even more, associations can be misleading and suffer from _overfitting_.
 Overfitting is when a model fits the data too precisely, leading to poor predictions on new data.
 This is like a student who has seen the exam questions beforehand and can answer them all, but fails when seeing new questions.
 There are mathematical ways to estimate overfitting, like the Bayesian Information Criterion, but these are hard to interpret and do not clearly indicate how well the model will do in practice.
@@ -151,9 +151,9 @@ Then the model is evaluated in each fold and the scores from each fold are combi
 The aim of this general score is to estimate how well the model (or student) will do in the future when seeing new data (or questions).
 
 Cross-validation provides a single number indicating model performance.
-However, this number was not informative enough for our practical purposes.
-For example, this single number would not tell us whether it was easier for the model to predict dropout for the 10% lowest scoring recruits, or to predict graduation for the 10% highest scoring recruits.
-Luckily, there is a way to get a clearer estimate and it was invented after the second World War.
+However, this number is not informative enough for the purpose of this thesis.
+For example, in the context of special forces selection, this number would not tell us how many recruits could be selected without making a mistake.
+Luckily, there is a way to get a clearer estimate, which was invented after the second World War.
 During the war, radars sent out pulses and received echos.
 Based on the echos, the British radar operators had to decide whether the echo was a plane or a flock of birds @neale1985ch.
 The stakes for these decisions were high.
