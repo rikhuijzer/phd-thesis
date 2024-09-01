@@ -6,17 +6,17 @@
 #avoid_indent()
 We investigated whether it is possible to predict who will drop out from special forces selection.
 To do so, we gathered data to compare special forces operators with the general population, and special forces dropouts with graduates on personality traits, see Chapter 2.
-We found that successful recruits and operators are typically less neurotic and more conscientious than dropouts compared to the general population.
+We found that successful recruits and operators are typically less neurotic and more conscientious when compared to respectively the general population and dropouts.
 These results were in line with previous research in high-stakes contexts @mcdonald1990training @lee2011prospective @campbell2010meta @braun1994personality.
 However, although we found effects in the expected directions for the dropout versus graduate comparison, they were not significant and had small to medium effect sizes.
 
-These small effect sizes make it difficult to predict who will drop out.
+These small effect sizes made it difficult to predict who will drop out on personality only.
 As other researchers put it:
 The traditional focus on explanations has led to intricate theories that have little (or unknown) ability to predict future behaviors @yarkoni2017choosing.
 Maybe this is like a car being judged on speed alone.
 For a while this could lead to better cars, but at some point, manufacturers will ignore other important factors such as comfort.
 With this in mind, we continued this thesis by being more focused on predictive performance.
-Note that solely aiming on good predictions (or comfort) does not solve all problems either.
+Note that solely aiming at good predictions (or comfort) does not solve all problems either.
 Too much focus on prediction could lead to intricate models that may lead to unsafe, unfair, or unreliable predictions @doshi2017towards @barredo2020explainable.
 For example, to explain how a model can be unfair or unreliable, suppose we only focus on predictive performance and the model decides to filter out all individuals born in October.
 The model does this because it has seen that individuals born in October are more likely to drop out.
@@ -25,7 +25,7 @@ To mitigate this, we can focus on both prediction and explanation @hofman2021int
 
 With our renewed focus on predictive performance, we found that not all prediction models were suitable for our research, because models had either a lower stability, interpretability, or predictive performance.
 In an attempt to improve this, we implemented our own version of the Stable and Interpretable RUle Sets (SIRUS) algorithm, and evaluated its predictive performance on multiple dataset, see Chapter 3.
-In the end, SIRUS scored very similar in predictive performance to linear regression, see Table #citefig(<perf>).
+In the end, SIRUS scored similar in predictive performance to linear regression, see Table #citefig(<perf>).
 This was surprising as the linear regression and SIRUS models fit the data very differently.
 In theory, the SIRUS model should have a strong benefit for fragile systems such as personnel selection.
 In such systems, negative effects are often nonlinear @taleb2020statistical @hill2024adaptation.
@@ -38,7 +38,7 @@ There could be many reasons for this.
 One could be that our implementation of the SIRUS model was not optimal.
 Another could be that the datasets were not large enough to detect the more complex patterns.
 
-Next, we tested different models, including the SIRUS model, on a large selection dataset in Chapter 4.
+Next, we tested different models, including the SIRUS model, on a large special forces dataset in Chapter 4.
 This dataset consisted of physical measures (e.g., number of push-ups and 2800 meters running time) and psychological measures (e.g., the NEO-PI-3 personality questionnaire) and was gathered in the first week of the selection period.
 When aiming to predict who would drop out, we combined the predictions with model explanations.
 For the predictions, we found that XGBoost performed best in terms of predictive performance.
@@ -55,7 +55,7 @@ There is an infinite number of ways in which the recruit could be hindered from 
 also known as _black swan_ events @taleb2010black.
 For example, breaking a leg or suddenly deciding to quit could lead to immediate, and permanent, dropout.
 Maybe the model can predict this by finding a clue in the data, such as a poor running time or a low motivation.
-Conversely, since the data that the model sees is so limited, it is much harder to predict that everything will go right.
+Conversely, since the data that the model sees is limited, it is much harder to predict that everything will go right.
 
 While the results of Chapter 4 are promising, they do not provide information on how recruits respond to the high levels of physical and psychological stress during the selection period.
 Having this information could help to predict dropout more accurately.
@@ -63,7 +63,7 @@ Therefore, in Chapter 5 we used a shorter questionnaire that was filled in each 
 We found that a higher self-efficacy and motivation were significantly related to dropout.
 This means that how participants responded at the start of the week was related to whether they would soon drop out.
 With these and other variables, the model achieved an average AUC of 0.69, which means it could be useful in practice.
-After estimating the predictive performance in practice, we found that the model could sometimes predict dropout multiple weeks in advance with few false positives.
+After estimating the predictive performance in practice, we found that the linear regression model could sometimes predict dropout multiple weeks in advance with few false positives.
 
 In conclusion, to answer the question whether we can predict who will drop out from special forces selection:
 From Chapter 4 and 5, it looks like we can predict dropout reasonably well.
