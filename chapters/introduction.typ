@@ -194,7 +194,7 @@ With these tools, we aimed to answer the question of who will make it through th
 == Thesis Chapters
 
 The core of this thesis is split into four parts.
-In Chapter 2, we focused on identifying personality traits that could differentiate between experienced commandos, successful graduates, and dropouts in special forces training.
+In Chapter 2, we focused on identifying personality traits that could differentiate between experienced commandos and ordinary Dutch men, and between successful graduates and dropouts in special forces training.
 We used the inference paradigm to compare the personality traits of these groups, providing insights into the role of personality in special forces selection.
 ], breakable: false) \
 #v(-2em)
@@ -208,7 +208,8 @@ In Chapter 4, we used various machine learning techniques, including SIRUS, to p
 This data was collected at one point in time during the first week of the selection program.
 We again compared the performance, explainability, and stability and showed the benefits of the SIRUS model in this high-stakes context due to it having good predictive performance while retaining model stability and explainability.
 
-In chapter 5, we measured psychological and physical stress and recovery states of recruits during the training program.
+In Chapter 5, we measured psychological and physical stress and recovery states of recruits during the training program.
+This aimed to find early indicators of dropout.
 Again, using machine learning techniques, we compared the performance, explainability, and stability of the models.
 We also estimated the real-world predictive performance of the most suitable model.
 
