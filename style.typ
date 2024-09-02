@@ -112,9 +112,9 @@
     justify: true,
   )
 
-  let style = "american-psychological-association"
+  // Automatically uses the bibliography style.
+  let style = auto
   set cite(style: style)
-  set bibliography(style: style)
 
   set table(
     stroke: none,

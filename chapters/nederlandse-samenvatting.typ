@@ -37,7 +37,7 @@ Meer specifiek, een langzamere score op de 2800 meter hardlooptijd, verbondenhei
 
 In hoofdstuk 5 hebben wij onderzocht of wij de voorspellingen konden verbeteren door de data gedurende de hele opleiding te verzamelen.
 Deze vragenlijsten waren korter, maar werden iedere week afgenomen in plaats van alleen in de eerste week.
-Weer hebben wij meerdere machine learning modellen op de data getest.
+Wij hebben opnieuw meerdere machine learning modellen op de data getest.
 In dit geval was een lineaire regressie model het meest geschikt voor het voorspellen van uitval.
 Met dit model vonden wij dat lagere scores op zelfeffectiviteit en motivatie geassocieerd waren met uitval.
 We vonden ook dat het model in veel gevallen uitval al enkele weken van tevoren kon voorspellen.

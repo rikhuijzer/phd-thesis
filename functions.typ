@@ -111,7 +111,7 @@
   )
   [= Bibliography]
   set text(size: 7pt)
-  bibliography("references.bib", title: none)
+  bibliography("references.bib", title: none, style: "apa")
 }
 
 #let note(
