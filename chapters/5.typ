@@ -1,6 +1,7 @@
 #import "../style.typ": citefig
 #import "../functions.typ": chapter, textcite, parencite, note
 
+#pagebreak()
 #chapter(
   [Early Identification of Dropouts During the Special Forces Selection Program],
   label: [

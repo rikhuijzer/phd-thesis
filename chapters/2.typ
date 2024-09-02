@@ -1,6 +1,8 @@
 #import "../style.typ": citefig
 #import "../functions.typ": chapter, textcite, parencite, note, header
 
+// To go to right page.
+#pagebreak()
 #chapter(
   [Personality Traits of Special Forces Operators: Comparing Commandos, Candidates and Controls],
   label: [
