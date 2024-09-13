@@ -24,7 +24,7 @@ Daarom hebben wij een statistisch model wat bekend staat als _Stable and Interpr
 Het doel van deze open-source implementatie was om het model beter te begrijpen en om het model beter toe te kunnen passen op onze data.
 Tevens zorgde deze vertaling ervoor dat het aantal regels code gereduceerd kon worden.
 Dit verhoogde de leesbaarheid voor onzelf en staat hopelijk in de toekomst andere onderzoekers toe om het algorithme te verbeteren of als de basis voor nieuwe algorithmes.
-Wij hebben het voorspellend vermogen van het model vergelijken met andere modellen en de originele implementatie.
+Wij hebben het voorspellend vermogen van het model vergeleken met andere modellen en de originele implementatie.
 Hieruit bleek dat het voorspellend vermogen van onze implementatie vergelijkbaar was met de originele implementatie in de R programmeertaal.
 
 In hoofdstuk 4 hebben wij deze nieuwe implementatie en enkele andere modellen weer toegepast op de data uit de eerste week van de opleiding.
