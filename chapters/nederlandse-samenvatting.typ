@@ -18,7 +18,7 @@ We vonden dat commando's typisch minder neurotisch, meer consciëntieus en minde
 Voor de geslaagden vonden wij dat ze typisch minder neurotisch en meer consciëntieus leken te zijn.
 Voor selectie leken de persoonlijkheidskenmerken niet voldoende voorspellend te zijn.
 
-Vanaf hoofdstuk 3 hebben wij ons meer gericht op het voorspellen van uitval.
+Vanaf Hoofdstuk 3 hebben wij ons meer gericht op het voorspellen van uitval.
 In onze data analyses vonden wij dat veel statistische modellen niet goed presteerden op het gebied van voorspellend vermogen, stabiliteit of uitlegbaarheid.
 Daarom hebben wij een statistisch model wat bekend staat als _Stable and Interpretable RUle Sets_ (SIRUS) opnieuw geïmplementeerd in de programmeertaal Julia.
 Het doel van deze open-source implementatie was om het model beter te begrijpen en om het model beter toe te kunnen passen op onze data.

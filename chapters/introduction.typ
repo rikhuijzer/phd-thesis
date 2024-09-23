@@ -6,7 +6,7 @@
 #avoid_indent()
 Imagine being able to correctly predict those individuals who will graduate from pilot training, Harvard medical school, or even NASA's astronaut program.
 This would have a large impact on the world as it would reduce individuals being disappointed due to being rejected, and as it would reduce the use of resources for organizations.
-Furthermore, selecting the right people would positively influence the organization to which people are selected.
+Also, selecting the right people would positively influence the organization to which people are selected.
 For example, some organizations are willing to pay millions of dollars to hire the right researcher, athlete, or CEO (e.g., #parencite(<metz2018ai>)).
 However, such predictions are remarkably difficult to make.
 A single highly improbable event is all that is needed to significantly alter the outcome @taleb2010black.
@@ -82,12 +82,12 @@ For example, when adding the standard deviation to a data science package, there
 
 == Statistics and Machine Learning
 
-We heavily based our research on earlier studies with the similar measures in similar settings, and theoretical knowledge from psychology about personality and sport science.
+We based our research on earlier studies with the similar measures in similar settings, and theoretical knowledge from psychology about personality and sport science.
 However, much discussion exists on the validity of the typically used statistical analyses.
 This was challenging for our studies, which were quantitative and hence relied fully on these analyses.
-Put differently, the core of the argument in quantitative research is the use of statistics, so researchers who question the validity of these statistics question the core of the research.
+The core of the argument in quantitative research is the use of statistics, so researchers who question the validity of these statistics question the core of the research.
 
-Now some argue that it is best to stick to the well-known and well-established statistical tests regardless of the criticisms.
+Some argue that it is best to stick to the well-known and well-established statistical tests regardless of the criticisms.
 If we all agree on what tests to use, then we can all use the same objective criteria to evaluate the results.
 This is like finding an optimial solution in a simplified world, instead of finding a good solution in a more realistic world @simon1979rational.
 It is possible that the well-known approaches are not necessarily the best approaches.
@@ -120,7 +120,7 @@ Such variable associations belong to the _inference_, or _explanation_, paradigm
 This paradigm is what Galton and Fisher used a century ago.
 For example, analyzing which variables are associated with the outcome via a _t_-test is about explaining the data.
 However, we wanted to apply our research to the selection, but the associations did not indicate how accurate our predictions would be.
-Even more, associations can be misleading and suffer from _overfitting_.
+Moreover, associations can be misleading and suffer from _overfitting_.
 Overfitting is when a model fits the data too precisely, leading to poor predictions on new data.
 This is like a student who has seen the exam questions beforehand and can answer them all, but fails when seeing new questions.
 There are mathematical ways to estimate overfitting, like the Bayesian Information Criterion, but these are hard to interpret and do not clearly indicate how well the model will do in practice.
@@ -130,7 +130,7 @@ In this paradigm, known as the _prediction_ or _algorithmic_ paradigm
 (e.g., #parencite(<hastie2009elements>)),
 the focus is not on explaining the model, but on predicting the outcome.
 In this paradigm, a model can even completely lack interpretability, i.e., a _black-box_, as long as it predicts well.
-For example, nobody can fully understand why neural networks, such as modern Large Language Models (LLMs), or human brains in referees, make certain predictions.
+For example, nobody can fully understand why neural networks, such as modern Large Language Models (LLMs), or human brains, make certain predictions.
 As long as the model is useful and safe, this lack of understanding is accepted in certain contexts.
 There is some understanding about the effectiveness required to work with such models or referees, though.
 For a referee, this is is tested in the form of a long process of graduating through the various levels of refereeing before being allowed to referee a World Cup final.
@@ -138,7 +138,7 @@ For a machine learning model, this performance is typically tested on old data t
 
 A common approach for this is _cross-validation_.
 Cross-validation works by splitting the data into a _training_ and _test_ set.
-The model then sees the data in the training set and is asked to predict the data in the test set.
+The model sees the data in the training set and is asked to predict the data in the test set.
 Next, the predictions on the test set are compared to the real answers and the model receives a score.
 This procedure is very similar to how students are tested at universities.
 The student can see training questions and is then tested and evaluated on a set of test questions.

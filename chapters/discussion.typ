@@ -13,7 +13,7 @@ However, although we found effects in the expected directions for the dropout ve
 These small effect sizes made it difficult to predict who will drop out on personality only.
 As other researchers put it:
 The traditional focus on explanations has led to intricate theories that have little (or unknown) ability to predict future behaviors @yarkoni2017choosing.
-Maybe this is like a car being judged on speed alone.
+This could be like a car being judged on speed alone.
 For a while this could lead to better cars, but at some point, manufacturers will ignore other important factors such as comfort.
 With this in mind, we continued this thesis by being more focused on predictive performance.
 Note that solely aiming at good predictions (or comfort) does not solve all problems either.
@@ -51,7 +51,7 @@ We also found that the SIRUS model was able to predict dropouts with a good accu
 Based on the ROC curves, Figure #citefig(<fig:auc>), we suspect that the SIRUS model can likely filter out about 10% of dropouts without losing graduates.
 In general, we expect that models are better at predicting dropouts than graduates @hunt2011predicting @taleb2013antifragile.
 This could be because many things have to go right for a recruit to graduate, while only one thing has to go wrong for an individual to drop out.
-There is an infinite number of ways in which the recruit could be hindered from graduating,
+There are an infinite number of ways in which the recruit could be hindered from graduating,
 also known as _black swan_ events @taleb2010black.
 For example, breaking a leg or suddenly deciding to quit could lead to immediate, and permanent, dropout.
 Maybe the model can predict this by finding a clue in the data, such as a poor running time or a low motivation.
