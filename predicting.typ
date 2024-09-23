@@ -7,6 +7,7 @@
 // https://www.rug.nl/education/phd-programmes/promotieregeling/
 // Note the PhD Regulations University of Groningen 2022 file.
 
+// Not using hydra because I couldn't figure out how to tweak it.
 #set page(header: header("Introduction"))
 #include "chapters/introduction.typ"
 #set page(header: header("Chapter 2"))
