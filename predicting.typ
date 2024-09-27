@@ -11,7 +11,6 @@
 
 #include "title-page.typ"
 
-#pagebreak()
 #show: style.with(
   title: title()
 )
