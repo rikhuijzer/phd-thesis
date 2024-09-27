@@ -1,7 +1,7 @@
 
 #set text(font: "Georgia", size: 18pt)
 
-#image("images/rug.jpg", width: 50%)
+#image("images/rugr_logoen_zwart_rgb.jpg", width: 50%)
 
 #v(2em)
 
@@ -54,10 +54,12 @@
 #set text(font: "Cambria", size: 8pt)
 
 *Promotores*\
-Prof. R.J.R. den Hartigh\
-Prof. P. de Jonge\
+Prof. dr. R.J.R. den Hartigh\
+Prof. dr. P. de Jonge\
+\
 \
 *Copromotor*\
 Dr. F.J. Blaauw\
-
+\
+\
 *Assessment Committee*
