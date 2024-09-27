@@ -31,7 +31,8 @@
           #chapter.body
         ]
         let loc = chapter.location()
-        let chapter_link = [#link(loc)[#loc.page()]]
+        let page_number = loc.page() - 4
+        let chapter_link = [#link(loc)[#page_number]]
         (chapter_text, chapter_link)
       }
     )
@@ -77,14 +78,6 @@
   show heading.where(
     depth: 2
   ): set heading(numbering: "1.1")
-
-  set page(
-      // Slow Productivity is 14.61 x 21.69 cm (almost A5).
-      // European printers all use A5.
-      width: 148mm, // 15.24 cm
-      height: 210mm, // 22.86 cm
-      margin: (top: 13mm, bottom: 16mm),
-  )
 
   show heading: set block(above: 1.4em, below: 1em)
 

@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Remove title page
+        run: sed -i '/#include "title-page.typ"/d' ./predicting.typ
+
       - name: Install Typst
         run: |
           DIR="$(pwd)"

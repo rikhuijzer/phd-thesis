@@ -1,5 +1,16 @@
 #import "style.typ": style
 #import "functions.typ": bib, title, header, only
+
+#set page(
+    // Slow Productivity is 14.61 x 21.69 cm (almost A5).
+    // European printers all use A5.
+    width: 148mm, // 15.24 cm
+    height: 210mm, // 22.86 cm
+    margin: (top: 13mm, bottom: 16mm),
+)
+
+#include "title-page.typ"
+
 #show: style.with(
   title: title()
 )
