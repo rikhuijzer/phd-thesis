@@ -31,7 +31,8 @@
           #chapter.body
         ]
         let loc = chapter.location()
-        let chapter_link = [#link(loc)[#loc.page()]]
+        let page_number = loc.page() - 4
+        let chapter_link = [#link(loc)[#page_number]]
         (chapter_text, chapter_link)
       }
     )
