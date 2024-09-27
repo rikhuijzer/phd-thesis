@@ -78,14 +78,6 @@
     depth: 2
   ): set heading(numbering: "1.1")
 
-  set page(
-      // Slow Productivity is 14.61 x 21.69 cm (almost A5).
-      // European printers all use A5.
-      width: 148mm, // 15.24 cm
-      height: 210mm, // 22.86 cm
-      margin: (top: 13mm, bottom: 16mm),
-  )
-
   show heading: set block(above: 1.4em, below: 1em)
 
   show figure: fig => context {
