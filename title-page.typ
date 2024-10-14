@@ -1,4 +1,13 @@
 
+// Duplicate of main doc, to allow stand-alone compilation.
+#set page(
+    // Slow Productivity is 14.61 x 21.69 cm (almost A5).
+    // European printers all use A5.
+    width: 148mm, // 15.24 cm
+    height: 210mm, // 22.86 cm
+    margin: (top: 13mm, bottom: 16mm),
+)
+
 #set text(font: "Georgia", size: 18pt)
 
 #image("images/rugr_logoen_zwart_rgb.jpg", width: 50%)
@@ -29,7 +38,7 @@
 
   This thesis will be defended in public on\
 
-  at hours
+  Monday 17 February 2025 at 16.15 hours
 ]
 
 #v(3em)
@@ -57,11 +66,10 @@
 Prof. dr. R.J.R. den Hartigh\
 Prof. dr. P. de Jonge\
 \
-\
 *Copromotor*\
 Dr. F.J. Blaauw\
 \
-\
-*Assessment Committee*
-
-#pagebreak()
+*Assessment Committee*\
+Prof. dr. R.R. Meijer\
+Prof. dr. G. Azzopardi\
+Prof. dr. S. Verstockt\

@@ -19,7 +19,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Remove title page
-        run: sed -i '/#include "title-page.typ"/d' ./predicting.typ
+        run: |
+          sed -i '|#include "title-page.typ"|d' ./predicting.typ
+          sed -i '|#pagebreak() // For title page.|d' ./predicting.typ
 
       - name: Fix page numbers in toc
         run: sed -i 's/page_number = loc.page() - 4/page_number = loc.page() - 2/g' ./style.typ

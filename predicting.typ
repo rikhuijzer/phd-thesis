@@ -10,6 +10,7 @@
 )
 
 #include "title-page.typ"
+#pagebreak() // For title page.
 
 #show: style.with(
   title: title()
