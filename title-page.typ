@@ -63,13 +63,13 @@
 #set text(font: "Cambria", size: 8pt)
 
 *Promotores*\
-Prof. dr. R.J.R. den Hartigh\
-Prof. dr. P. de Jonge\
+Prof. R.J.R. den Hartigh\
+Prof. P. de Jonge\
 \
 *Copromotor*\
 Dr. F.J. Blaauw\
 \
 *Assessment Committee*\
-Prof. dr. R.R. Meijer\
-Prof. dr. G. Azzopardi\
-Prof. dr. S. Verstockt\
+Prof. R.R. Meijer\
+Prof. G. Azzopardi\
+Prof. S. Verstockt\
