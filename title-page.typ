@@ -50,7 +50,7 @@
 #v(3em)
 
 #align(center)[
-  *Rik Huijzer*
+  *Teunis Hendrik Huijzer*
 ]
 
 #align(center)[
