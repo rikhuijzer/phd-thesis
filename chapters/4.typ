@@ -6,7 +6,7 @@
   label: [
     Huijzer, R., De Jonge, P., Blaauw, F. J., Baatenburg de Jong, M., De Wit, A., & Den Hartigh, R. J. R. (2024).
     Predicting Special Forces Dropout via Explainable Machine Learning.
-    _European Journal of Sport Science_.
+    _European Journal of Sport Science_, 24(11), 1564-1572.
     #link("https://doi.org/10.1002/ejsc.12162")
   ],
   abstract: [
