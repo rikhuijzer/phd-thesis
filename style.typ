@@ -92,6 +92,7 @@
       // Having note not justified next to caption is okay because it further
       // distinguishes the note from the body of the text.
       #set par(justify: false)
+      #set align(left)
       *#sup #figure_num(fig)* \
       _ #text(txt, size: 9pt) _
       #align(center)[
@@ -134,18 +135,20 @@
         footer: context {
           set text(size: 9pt)
           let num = only(counter(page).get())
-          let is_left_page = calc.even(num)
-          if is_left_page [
-            #num
-          ] else [
-            #h(1fr)
-            #num
-          ]
+          if 0 < num {
+            let is_left_page = calc.even(num)
+            if is_left_page [
+              #num
+            ] else [
+              #h(1fr)
+              #num
+            ]
+          }
         }
   )
 
   set text(font: font, fallback: fallback, size: 10pt, top-edge: 1em)
-  show par: set block(spacing: 0.6em)
+  set par(spacing: 0.7em)
 
   // Includes code blocks and inline code.
   show raw: set text(size: 6.4pt)

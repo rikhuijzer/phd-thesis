@@ -6,7 +6,7 @@
   label: [
     Huijzer, R., Blaauw, F. J., Den Hartigh, R. J. R. (2023).
     SIRUS.jl: Interpretable Machine Learning via Rule Extraction.
-    _Journal of Open Source Software_, 8(90), 5786,
+    _Journal of Open Source Software_, 8(90), 5786.
     #link("https://doi.org/10.21105/joss.05786")
   ],
   abstract: [
@@ -62,8 +62,8 @@ In turn, this means that rules contain at most 2 clauses (`if A & B`).
 When the maximum depth is set to 1, then the rules contain at most 1 clause (`if A`).
 Most rule-based models, including SIRUS, are restricted to depth of 1 or 2 @benard2021sirus.
 
+#box[
 The output for the fitted model looks as follows (see @code-example for the code):
-
 ```
 StableRules model with 8 rules:
  if X[i, :nodes] < 7.0 then 0.238 else 0.046 +
@@ -76,6 +76,7 @@ StableRules model with 8 rules:
  if X[i, :nodes] ≥ 7.0 & X[i, :age] ≥ 42.0 then 0.014 else 0.045
 and 2 classes: [0, 1].
 ```
+]
 
 This shows that the model contains 8 rules where the first rule, for example, can be interpreted as:
 \
@@ -99,7 +100,6 @@ The aforementioned RuleFit algorithm also suffers from stability issues due to t
 The SIRUS algorithm solves this problem by stabilizing the trees inside the forest, and the original authors have proven the correctness of this stabilization mathematically @benard2021sirus.
 In the rest of this paper, we will compare the predictive performance of SIRUS.jl to the performance of decision trees @sadeghi2022decisiontree, linear models, XGBoost @chen2016xgboost, and the original (C++/R) SIRUS implementation @benard2021sirus.
 The interpretability and stability are summarized in Table #citefig(<interpretability-stability>).
-
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
@@ -113,7 +113,7 @@ The interpretability and stability are summarized in Table #citefig(<interpretab
     [*Stability*], [Low], [Medium], [High], [High],
     table.hline(start: 0),
   ),
-  caption: "Summary of interpretability and stability for various models"
+  caption: "Summary of Interpretability and Stability for Various Models"
 ) <interpretability-stability>
 
 == Predictive Performance
@@ -159,7 +159,7 @@ The result for the Iris dataset for the original SIRUS algorithm is missing beca
       table.hline(start: 0),
     )
   },
-  caption: "Predictive performance estimates"
+  caption: "Predictive Performance Estimates"
 ) <perf>
 
 At the time of writing, SIRUS's predictive performance is comparable to the linear model and XGBoost on the binary classification datasets, that is, Haberman, Titanic, Breast Cancer, and Diabetes.

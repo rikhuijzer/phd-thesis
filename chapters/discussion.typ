@@ -1,7 +1,6 @@
 #import "../style.typ": citefig
 #import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, pagebreak_to_right
 
-#pagebreak_to_right()
 = Discussion
 #avoid_indent()
 We investigated whether it is possible to predict who will drop out from special forces selection.

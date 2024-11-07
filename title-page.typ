@@ -6,6 +6,7 @@
     width: 148mm, // 15.24 cm
     height: 210mm, // 22.86 cm
     margin: (top: 13mm, bottom: 16mm),
+    footer: none,
 )
 
 #set text(font: "Georgia", size: 18pt)
