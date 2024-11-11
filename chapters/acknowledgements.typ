@@ -4,6 +4,7 @@
 
 = Acknowledgements
 #avoid_indent()
+#set text(size: 11pt)
 This thesis is based on the ideas from friends, family, mentors, and teachers in major ways.
 I would like to thank the following people by listing some ideas that they contributed.
 When there are quotation marks, the text is a literal quote.

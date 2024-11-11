@@ -30,6 +30,8 @@
   \
 ]
 
+#let indent() = h(0.5cm)
+
 // Ensure that the next page starts on the right.
 #let pagebreak_to_right() = context [
   #pagebreak()
@@ -82,6 +84,8 @@
     // Basically nested if is an and.
     #if abstract != none [
       #if label != none [
+        // Ensure that the Chapter 5 abstract fits on one page.
+        #set text(size: 11.4pt)
         #abstract_text
         #pagebreak()
       ]
@@ -110,7 +114,7 @@
     justify: false,
   )
   [= Bibliography]
-  set text(size: 7pt)
+  set text(size: 9pt)
   bibliography("references.bib", title: none, style: "apa.csl")
 }
 

@@ -1,8 +1,6 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note, header
+#import "../functions.typ": chapter, textcite, parencite, note, header, indent
 
-// To go to right page.
-#pagebreak()
 #chapter(
   [Personality Traits of Special Forces Operators: Comparing Commandos, Candidates and Controls],
   label: [
@@ -184,6 +182,8 @@ We interpreted the posterior model probabilities directly @mcelreath2020statisti
 Bayesian techniques also allow us to conclude that there is no effect, which is an additional benefit over classical hypothesis testing @gelman2012multiple.
 We used a multilevel model with partial pooling which is a regularization technique that allows the model to combine information from different groups, and reduces the chances of detecting false-positive results @mcelreath2020statistical.
 In our study, the Bayesian approach estimates the population parameters directly which, in our case, are the population means.
+
+#block([
 We defined and fitted the models using the Julia programming language @bezanson2017julia with the Bayesian inference package Turing.jl @ge2018turing.
 The model is defined as
 
@@ -199,7 +199,9 @@ where $S_i$ denotes the personality score for participant $i$.
 Here, we set the prior for $alpha$ to 144, which is in the middle of the lower and upper bound of the scoring range.
 More specifically, the number is obtained via (240 - 48) / 2 + 48 = 144.
 This model assumes that all groups should look similar.
-Arguably, this common mean $alpha$ (partial pooling) will favor solutions where differences between groups are minimized.
+], breakable: false)
+
+#indent()Arguably, this common mean $alpha$ (partial pooling) will favor solutions where differences between groups are minimized.
 Hence, as a validity check of our Bayesian analysis, we fitted _t_-tests.
 The benefit of the _t_-tests is that they can be compared to existing literature more easily and are more familiar to many readers.
 In this study, we considered the Bayesian results as leading and, therefore, used the _t_-tests as a backup.
@@ -231,7 +233,7 @@ The descriptives are shown in Table #citefig(<personality-descriptive-statistics
 
 #figure(
   {
-    set text(size: 9pt)
+    set text(size: 10pt)
     table(
       columns: (auto, auto, auto, auto, auto),
       align: left,

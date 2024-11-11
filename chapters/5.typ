@@ -1,7 +1,6 @@
 #import "../style.typ": citefig
 #import "../functions.typ": chapter, textcite, parencite, note
 
-#pagebreak()
 #chapter(
   [Early Identification of Dropouts During the Special Forces Selection Program],
   label: [
@@ -177,7 +176,7 @@ The positive coefficients indicate that recruits who score higher of self-effica
 
 #figure(
   {
-    set text(size: 8.5pt)
+    set text(size: 10pt)
     table(
       columns: (auto, auto, auto, auto, auto, auto),
       align: (left, right, right, right, right, right),

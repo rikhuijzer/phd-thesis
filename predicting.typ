@@ -1,11 +1,14 @@
 #import "style.typ": style
 #import "functions.typ": bib, title, header, only
 
+// 1. A5 formaat? Wat is gebruikelijk in computer science?
+// 2. Is het standaard met cover omslag? Hardcover? Softcover?
+// 3. 
+
 #set page(
-    // Theses use 170x240.
     width: 170mm,
     height: 240mm,
-    margin: (top: 13mm, bottom: 16mm),
+    margin: (top: 22mm, bottom: 22mm),
     footer: none,
 )
 
@@ -35,8 +38,11 @@
 #set page(header: header("Nederlandse samenvatting"))
 #include "chapters/nederlandse-samenvatting.typ"
 
+// To go to the right side.
+#pagebreak()
+#pagebreak()
 #set page(header: header("Bibliography"))
 #bib()
 
-// #set page(header: header("Acknowledgements"))
-// #include "chapters/acknowledgements.typ"
+#set page(header: header("Acknowledgements"))
+#include "chapters/acknowledgements.typ"

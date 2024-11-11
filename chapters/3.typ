@@ -1,6 +1,8 @@
 #import "../style.typ": citefig
 #import "../functions.typ": chapter, textcite, parencite, note
 
+// Ensure the page falls on the right side.
+#pagebreak()
 #chapter(
   [SIRUS.jl: Interpretable Machine Learning via Rule Extraction],
   label: [
@@ -101,18 +103,21 @@ The SIRUS algorithm solves this problem by stabilizing the trees inside the fore
 In the rest of this paper, we will compare the predictive performance of SIRUS.jl to the performance of decision trees @sadeghi2022decisiontree, linear models, XGBoost @chen2016xgboost, and the original (C++/R) SIRUS implementation @benard2021sirus.
 The interpretability and stability are summarized in Table #citefig(<interpretability-stability>).
 #figure(
-  table(
-    columns: (auto, auto, auto, auto, auto),
-    align: (left, center, center, center, center),
-    table.hline(start: 0),
-    table.header(
-      [], [*Decision Tree*], [*Linear Model*], [*XGBoost*], [*SIRUS*],
-    ),
-    table.hline(start: 0),
-    [*Interpretability*], [High], [High], [Medium], [High],
-    [*Stability*], [Low], [Medium], [High], [High],
-    table.hline(start: 0),
-  ),
+  {
+    set text(size: 10pt)
+    table(
+      columns: (auto, auto, auto, auto, auto),
+      align: (left, center, center, center, center),
+      table.hline(start: 0),
+      table.header(
+        [], [*Decision Tree*], [*Linear Model*], [*XGBoost*], [*SIRUS*],
+      ),
+      table.hline(start: 0),
+      [*Interpretability*], [High], [High], [Medium], [High],
+      [*Stability*], [Low], [Medium], [High], [High],
+      table.hline(start: 0),
+    )
+  },
   caption: "Summary of Interpretability and Stability for Various Models"
 ) <interpretability-stability>
 
@@ -137,7 +142,7 @@ The result for the Iris dataset for the original SIRUS algorithm is missing beca
 
 #figure(
   {
-    set text(size: 7.5pt)
+    set text(size: 9pt)
     let param(txt) = text(txt, size: 6pt, weight: "bold")
     table(
       columns: (auto, auto, auto, auto, auto, auto, auto),

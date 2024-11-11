@@ -88,17 +88,19 @@
     let txt = caption.body.text
     assert(not txt.ends-with("."), message: "Caption ends with a dot")
 
+    v(0.7em)
     block(width: 100%)[
       // Having note not justified next to caption is okay because it further
       // distinguishes the note from the body of the text.
       #set par(justify: false)
       #set align(left)
       *#sup #figure_num(fig)* \
-      _ #text(txt, size: 9pt) _
+      _ #text(txt, size: 11pt) _
       #align(center)[
         #fig.body
       ]
     ]
+    v(0.7em)
   }
 
   set par(
@@ -133,7 +135,7 @@
 
   set page(
         footer: context {
-          set text(size: 9pt)
+          set text(size: 11pt)
           let num = only(counter(page).get())
           if 0 < num {
             let is_left_page = calc.even(num)
@@ -147,11 +149,11 @@
         }
   )
 
-  set text(font: font, fallback: fallback, size: 10pt, top-edge: 1em)
+  set text(font: font, fallback: fallback, size: 13pt, top-edge: 1em)
   set par(spacing: 0.7em)
 
   // Includes code blocks and inline code.
-  show raw: set text(size: 6.4pt)
+  show raw: set text(size: 7.4pt)
 
   // Display the content.
   body
