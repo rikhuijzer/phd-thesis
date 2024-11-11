@@ -2,10 +2,9 @@
 #import "functions.typ": bib, title, header, only
 
 #set page(
-    // Slow Productivity is 14.61 x 21.69 cm (almost A5).
-    // European printers all use A5.
-    width: 148mm, // 15.24 cm
-    height: 210mm, // 22.86 cm
+    // Theses use 170x240.
+    width: 170mm,
+    height: 240mm,
     margin: (top: 13mm, bottom: 16mm),
     footer: none,
 )

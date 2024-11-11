@@ -1,10 +1,10 @@
 
+
 // Duplicate of main doc, to allow stand-alone compilation.
 #set page(
-    // Slow Productivity is 14.61 x 21.69 cm (almost A5).
-    // European printers all use A5.
-    width: 148mm, // 15.24 cm
-    height: 210mm, // 22.86 cm
+    // Theses use 170x240.
+    width: 170mm,
+    height: 240mm,
     margin: (top: 13mm, bottom: 16mm),
     footer: none,
 )
@@ -19,7 +19,7 @@
   *Predicting Dropout in Special Forces Selection*
 ]
 
-#v(3em)
+#v(4em)
 
 #set text(size: 10pt)
 #align(center)[
@@ -28,7 +28,7 @@
 
 #v(3em)
 
-#set text(size: 8pt)
+#set text(size: 9pt)
 #align(center)[
   to obtain the degree of PhD at the\
   University of Groningen\
@@ -61,7 +61,7 @@
 
 #pagebreak()
 
-#set text(font: "Cambria", size: 8pt)
+#set text(font: "Cambria", size: 10pt)
 
 *Promotores*\
 Prof. R.J.R. den Hartigh\
