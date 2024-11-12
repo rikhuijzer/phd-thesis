@@ -8,7 +8,8 @@
   background: background,
   fill: black,
   width: 170mm + 6.52mm + 170mm + 5mm + 60mm,
-  height: 244mm
+  height: 244mm,
+  margin: 0mm,
 )
 
 #let font = "Montserrat"
@@ -22,8 +23,9 @@
 ]
 
 #let side() = box(
-  inset: (x:-80mm,y:90mm),
-  text(size: 13pt, rotate([
+  inset: (x:-80mm,y:110mm),
+  text(size: 12pt, rotate([
+    #h(9em)
     Predicting Dropout in Special Forces Selection |
     Rik Huijzer
   ], 90deg))
@@ -31,10 +33,10 @@
 
 #let front() = [
   #set align(center)
-  #v(5.1em)
+  #v(9.4em)
   Predicting Dropout in \
   Special Forces Selection
-  #v(18em)
+  #v(17.2em)
   #text(size: 14pt, [Rik Huijzer])
 ]
 
