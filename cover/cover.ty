@@ -1,3 +1,35 @@
-#figure(
-  image("cover.png")
+#let background = image(
+  "cover.svg",
+)
+
+#set page(
+  background: background,
+  fill: black,
+  width: 170mm + 6.52mm + 170mm + 5mm + 64mm,
+  height: 244mm
+)
+
+#let font = "Montserrat"
+#set text(font: font, fallback: false, size: 22pt)
+
+#set text(
+  fill: white,
+)
+
+#let rug() = box(
+  inset: (x:-80mm,y:90mm),
+  text(size: 13pt, rotate([
+    Predicting Dropout in Special Forces Selection |
+    Rik Huijzer
+  ], 90deg))
+)
+
+#grid(
+  columns: (170mm, 6.52mm, 170mm, 5mm, 64mm),
+  rows: 244mm,
+  align(center)[foo],
+  rug(),
+  align(center)[bar],
+  align(center)[baz],
+  [bar]
 )
