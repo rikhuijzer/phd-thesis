@@ -1,7 +1,5 @@
 #let background = image(
   "cover.svg",
-  // I have no idea why this is necessary.
-  width: 100%
 )
 
 #set page(
@@ -23,9 +21,9 @@
 ]
 
 #let side() = box(
-  inset: (x:-80mm,y:110mm),
+  inset: (x:-90mm,y:93mm),
   text(size: 12pt, rotate([
-    #h(9em)
+    #h(14.6em)
     Predicting Dropout in Special Forces Selection |
     Rik Huijzer
   ], 90deg))
@@ -33,6 +31,7 @@
 
 #let front() = [
   #set align(center)
+  #set text(weight: 700)
   #v(9.4em)
   Predicting Dropout in \
   Special Forces Selection
