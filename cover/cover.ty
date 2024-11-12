@@ -62,10 +62,10 @@ _"Very interesting."_ \
 #let front() = [
   #set align(center)
   #set text(weight: 700)
-  #v(16em)
+  #v(8.3em)
   Predicting Dropout in \
   Special Forces Selection
-  #v(10.5em)
+  #v(18.35em)
   #text(size: 14pt, [Rik Huijzer])
 ]
 
