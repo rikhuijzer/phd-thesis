@@ -1,11 +1,13 @@
 #let background = image(
   "cover.svg",
+  // I have no idea why this is necessary.
+  width: 100%
 )
 
 #set page(
   background: background,
   fill: black,
-  width: 170mm + 6.52mm + 170mm + 5mm + 64mm,
+  width: 170mm + 6.52mm + 170mm + 5mm + 60mm,
   height: 244mm
 )
 
@@ -16,7 +18,12 @@
   fill: white,
 )
 
-#let rug() = box(
+#let back() = [
+  #set align(center)
+  "OSEE Exam Report"
+]
+
+#let side() = box(
   inset: (x:-80mm,y:90mm),
   text(size: 13pt, rotate([
     Predicting Dropout in Special Forces Selection |
@@ -24,12 +31,17 @@
   ], 90deg))
 )
 
+#let front() = [
+  #set align(center)
+  Predicting Dropout in Special Forces Selection
+]
+
 #grid(
-  columns: (170mm, 6.52mm, 170mm, 5mm, 64mm),
+  columns: (170mm, 6.52mm, 170mm, 5mm, 60mm),
   rows: 244mm,
-  align(center)[foo],
-  rug(),
-  align(center)[bar],
+  back(),
+  side(),
+  front(),
   align(center)[baz],
   [bar]
 )
