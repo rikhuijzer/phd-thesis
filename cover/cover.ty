@@ -44,8 +44,8 @@ In Chapter 5, we investigated whether we could improve the predictions by collec
 These questionnaires were shorter, but were administered every week instead of only in the first week.
 We again tested multiple machine learning models on the data.
 In this case, a linear regression model was most suitable for predicting dropout.\
-\
-_"Very interesting read. Will definitely read again."_ \
+#v(2em)
+_"Very interesting."_ \
 - Anonymous reviewer
   ], inset: 20mm)
 ]
@@ -72,7 +72,23 @@ _"Very interesting read. Will definitely read again."_ \
 #let bookmark() = [
   #set align(center)
   #text(size: 14pt,
-    []
+    block([
+      #v(5em)
+      #text(size: 20pt, weight: 500, [Invitation])
+      #v(1em)
+      For attending the public defense of the thesis
+      #v(1em)
+      #text(size: 14pt, weight: 500, [_Predicting Dropout in Special Forces Selection_])
+      #v(1em)
+      by \
+      Rik Huijzer
+      #v(1em)
+      On Monday February 17th, 2025\
+      at 16:15
+      #v(2em)
+      The ceremony will take place at the Aula of the Academy building, University of Groningen\
+      Broerstraat 5, Groningen
+    ], inset: 2mm)
   )
 ]
 
