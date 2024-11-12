@@ -15,7 +15,7 @@ Otherwise, the text is my best effort to summarize an idea that people told me o
 *Frank Blaauw*: Don't focus too much on reasons why the approach might not work, but instead have some optimism and focus on why the approach might work. \
 *Hanna Tobaben*: Not everything is binary. \
 *John Boyd*, *Elon Musk*, and *Steve Jobs*: Challenge all assumptions. \
-*John Von Neumann* and *Hylke Donkers*: With enough free parameters, you can fit an elephant. \
+*John von Neumann* and *Hylke Donker*: With enough free parameters, you can fit an elephant. \
 *Maurits Baatenburg de Jong*: Be humble. \
 *Nely Schutte*, *Ben Graham*, and *Warren Buffett*: "You're not right or wrong because a thousand people agree with you and you're not right or wrong because a thousand people disagree with you. You are right when your facts and reasoning are right." \
 *Peter de Jonge*: Don't forget to give sincere compliments from time to time. \
