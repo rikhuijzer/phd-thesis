@@ -19,8 +19,6 @@
 )
 
 #let back() = [
-  #set align(center)
-  "OSEE Exam Report"
 ]
 
 #let side() = box(
