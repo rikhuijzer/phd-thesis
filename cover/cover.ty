@@ -18,36 +18,6 @@
 )
 
 #let back() = [
-  #set text(size: 12pt, font: "EB Garamond")
-  #set par(justify: true)
-  #block([
-Imagine being able to predict in advance which individuals will make it to pilot training, Harvard pre-selection, or even NASA's astronaut selection.
-This could prevent a lot of disappointment among individuals and save organizations a lot of time and money.
-Unfortunately, these kinds of predictions are very difficult to make.
-For example, a recruit can be the best in his training, but still drop out due to problems at home or a misstep down a rabbit hole.
-
-Together with the Korps Commandotroepen, we investigated whether we can predict who will drop out of the training.
-In Chapter 2, we used this personality data from the first week of the training.
-Based on this data, we investigated whether we could use personality characteristics to distinguish between people who dropped out and people who passed.
-
-From Chapter 3 onwards, we focused more on predicting dropout.
-In our data analyses, we found that many statistical models did not perform well in terms of predictive power, stability, or explainability.
-Therefore, we reimplemented a statistical model known as _Stable and Interpretable RUle Sets_ (SIRUS) in the programming language Julia.
-The goal of this open-source implementation was to better understand the model and to be able to better apply the model to our data.
-
-In Chapter 4, we applied this new implementation and several other models to the data from the first week of the training.
-This time, we not only looked at personality, but also at the sports data.
-We then compared four different models on these data for predictive power,
-stability, and explainability.
-
-In Chapter 5, we investigated whether we could improve the predictions by collecting the data throughout the training.
-These questionnaires were shorter, but were administered every week instead of only in the first week.
-We again tested multiple machine learning models on the data.
-In this case, a linear regression model was most suitable for predicting dropout.\
-#v(2em)
-_"Very interesting."_ \
-- Anonymous reviewer
-  ], inset: 20mm)
 ]
 
 #let side() = box(
@@ -62,10 +32,10 @@ _"Very interesting."_ \
 #let front() = [
   #set align(center)
   #set text(weight: 700)
-  #v(8.3em)
+  #v(11em)
   Predicting Dropout in \
   Special Forces Selection
-  #v(18.35em)
+  #v(15.8em)
   #text(size: 14pt, [Rik Huijzer])
 ]
 
