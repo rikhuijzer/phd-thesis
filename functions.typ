@@ -47,8 +47,8 @@
 ) = context {
   let based_on = if label != none [
     #set text(size: 9pt)
-    _This chapter is based on:_ #v(0pt) \
-    #set text(size: 8pt)
+    _This chapter is based on:_ \
+    #set text(size: 9pt)
     #label
   ] else [
   ]
