@@ -31,15 +31,28 @@
 
 #let front() = [
   #set align(center)
-  Predicting Dropout in Special Forces Selection
+  #v(5.1em)
+  Predicting Dropout in \
+  Special Forces Selection
+  #v(18em)
+  #text(size: 14pt, [Rik Huijzer])
 ]
+
+#let bookmark() = [
+  #set align(center)
+  #text(size: 14pt,
+    []
+  )
+]
+
+#let stroke = red
 
 #grid(
   columns: (170mm, 6.52mm, 170mm, 5mm, 60mm),
   rows: 244mm,
-  back(),
-  side(),
-  front(),
-  align(center)[baz],
-  [bar]
+  grid.cell(back(), stroke: stroke),
+  grid.cell(side(), stroke: stroke),
+  grid.cell(front(), stroke: stroke),
+  grid.cell([], stroke: stroke),
+  grid.cell(bookmark(), stroke: stroke)
 )
