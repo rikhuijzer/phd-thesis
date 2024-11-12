@@ -62,10 +62,10 @@ _"Very interesting."_ \
 #let front() = [
   #set align(center)
   #set text(weight: 700)
-  #v(9.4em)
+  #v(16em)
   Predicting Dropout in \
   Special Forces Selection
-  #v(10em)
+  #v(10.5em)
   #text(size: 14pt, [Rik Huijzer])
 ]
 
@@ -93,7 +93,7 @@ _"Very interesting."_ \
   )
 ]
 
-#let stroke = red
+#let stroke = none
 
 #grid(
   columns: (170mm, 6.52mm, 170mm, 5mm, 60mm),
