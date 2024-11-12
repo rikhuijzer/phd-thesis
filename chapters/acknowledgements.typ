@@ -5,7 +5,7 @@
 = Acknowledgements
 #avoid_indent()
 #set text(size: 11pt)
-This thesis is based on the ideas from friends, family, mentors, and teachers in major ways.
+This thesis is based on the ideas from friends, family, colleagues, mentors, and teachers in major ways.
 I would like to thank the following people by listing some ideas that they contributed.
 When there are quotation marks, the text is a literal quote.
 Otherwise, the text is my best effort to summarize an idea that people told me or taught me through their actions.
