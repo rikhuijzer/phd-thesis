@@ -8,4 +8,5 @@ birthdate.typ
 **/*.lock
 
 **/cover.pdf
+**/cover.png
 **/cover.py
