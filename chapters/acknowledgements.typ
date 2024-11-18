@@ -42,6 +42,32 @@ I'm also impressed by his ability to keep his cool in difficult situations.
 All in all, I highly recommend Ruud as a supervisor.
 It has been a great pleasure to work with him.
 
+KCT:
+
+Next to work, I'm thankful for the support of my parents and the family of my girlfriend.
+My father, Wout, has showed me "gewoon rustig doorgaan" (just calmly continue).
+He knows that finishing things is not a matter of speed, but a matter of perseverance.
+My mother, Nely, has always motivated me to do my best in school.
+Without my mother I would probably never have obtained my MSc degree, so I would never have started this PhD.
+Without my father, I would probably have dropped out halfway through the PhD.
+But luckily, rustig doorgaan has worked.
+I'm very thankful for the family of my girlfriend: Barbara, Jörg, Jens, and Silvia have been very welcoming and supportive.
+
+Next to my family, friends have been very important in relativizing some of the issues that came up during the PhD.
+I would like to thank Hylke, Koen, Henry, Yannick, Jose, Mark, Sjors,  for their support.
+
+I'm very luckily that two friends accepted my request to be my paranimfen: Yannick and Hylke.
+Both have been very supportive in the past years.
+Yannick has often explained to me in words that I could understand why Ruud was right.
+He has also set a great example of how to be productive while still having a good work-life balance.
+Hylke has been very supportive in the past years.
+He was the one who gave helpful feedback on my MSc thesis years ago and who again gave helpful feedback on various papers.
+Especially the visualizations of the SIRUS model were greatly improved by his feedback.
+I'm very grateful for their support and I'm looking forward to doing the defense with them.
+
+
+
+My friends ,...
 
 This thesis is based on the ideas from friends, family, colleagues, mentors, and teachers in major ways.
 I would like to thank the following people by listing some ideas that they contributed.
