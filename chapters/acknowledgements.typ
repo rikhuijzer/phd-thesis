@@ -4,7 +4,23 @@
 
 = Acknowledgements
 #avoid_indent()
-#set text(size: 11pt)
+If it turns out I have seen more, it is because I stood on the shoulders of giants.
+I would like to thank everybody who supported me in the past years to make this dissertation possible.
+
+I would like to thank my supervisors Ruud, Frank and Peter for their continuous support and guidance.
+"Challenge all assumptions" is an idea that I think is very important, but at the same time I am aware that I was not an easy PhD student to supervise.
+There have been many assumptions that I have challenged, which turned out to be correct.
+This must have been very frustrating since the supervisers had to spend time to explain why the these obvious assumptions were correct.
+Furthermore, I have made their job more difficult by being very peristent (read: stubborn) in my ideas.
+Still, from time to time I have taken their advice to heart and I am grateful for their guidance.
+From Peter I have learned that it not such a bad idea to give sincere compliments from time to time.
+I always thought "why give a compliment, they already know they are doing a good job", but Peter made me change my mind and I am very grateful for that.
+From Frank I have learned many things; especially that it's a good idea to have some optimism and tryout new tools.
+Also Frank has been a very reliable source of support for the most difficult software questions.
+
+I used to never do this, but I have now incorporated this into my life.
+As Peter
+
 This thesis is based on the ideas from friends, family, colleagues, mentors, and teachers in major ways.
 I would like to thank the following people by listing some ideas that they contributed.
 When there are quotation marks, the text is a literal quote.

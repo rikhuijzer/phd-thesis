@@ -4,7 +4,7 @@
 #set page(
     width: 170mm,
     height: 240mm,
-    margin: (top: 22mm, bottom: 22mm),
+    margin: (top: 26mm, bottom: 24mm, left: 24mm, right: 24mm),
     footer: none,
 )
 
