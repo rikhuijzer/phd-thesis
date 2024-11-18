@@ -76,11 +76,6 @@ He was the one who gave helpful feedback on my MSc thesis years ago and who agai
 Especially the visualizations of the SIRUS model were greatly improved by his feedback.
 I'm very grateful for their support and I'm looking forward to doing the defense with them.
 
-Next, I would like to give a general thanks to people who I never met but who have been great examples for me.
-Thanks to Warren Buffett, Charlie Munger, Peter Lynch, Nassim Nicholas Taleb, and Mohnish Pabrai for their teachings.
-On the surface, it sounds like these investors talk about shallow topics, but I have found many valuable life-lessons in their teachings.
-I'm grateful that these people have made their teachings available to the public for free.
-
 Finally, thanks to Hanna for her unwaivering support.
 I think that she will be more happy than me when this PhD is finally done.
 Although it was my idea to do this, she has experienced most of the ups and downs from closeby.
