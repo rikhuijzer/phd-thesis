@@ -31,7 +31,9 @@ This has been very helpful in the development of the software that was used in t
 More importantly, Frank always made time for a chat even when he later started to run his own company.
 
 Where Peter and Frank have had to deal with my stubbornness some of the time, Ruud has had to deal with it all of the time.
-I'm incredibly impressed by his patience and his unwaivering support.
+My apologies to Ruud for that.
+And probably to Steffie as well since I probably haven't always been the best for Ruud his mood.
+I'm incredibly impressed by Ruud his patience and his unwaivering support.
 Each time that I talked myself into seeing some situation as unfixable, Ruud was there to see the other side of the coin.
 And he was always quickly available.
 I think that in all these years, he has responded only one time not within 24 hours.
@@ -42,7 +44,16 @@ I'm also impressed by his ability to keep his cool in difficult situations.
 All in all, I highly recommend Ruud as a supervisor.
 It has been a great pleasure to work with him.
 
-KCT:
+This thesis would not have been possible without the support of the Korps Commandotroepen.
+I will keep this short out of respect for the privacy of the special forces, but let me say this:
+The people that I have met made me feel confident that our country's defense is in good hands.
+A special thanks goes to the members of the Human Performance Team.
+Each time I visited the organization, they made sure that everything was arranged.
+Next, they asked me about my research and gave useful and practical feedback.
+This has been extremely helpful to keep me on track.
+Without them, the research would probably have ended up in something that looked great in theory but didn't work in practice.
+A special thanks goes out to Maurits who got this project started.
+I have learned a lot from him especially about collaborating with people and how to remain empathetic even under pressure.
 
 Next to work, I'm thankful for the support of my parents and the family of my girlfriend.
 My father, Wout, has showed me "gewoon rustig doorgaan" (just calmly continue).
@@ -65,26 +76,14 @@ He was the one who gave helpful feedback on my MSc thesis years ago and who agai
 Especially the visualizations of the SIRUS model were greatly improved by his feedback.
 I'm very grateful for their support and I'm looking forward to doing the defense with them.
 
+Next, I would like to give a general thanks to people who I never met but who have been great examples for me.
+Thanks to Warren Buffett, Charlie Munger, Peter Lynch, Nassim Nicholas Taleb, and Mohnish Pabrai for their teachings.
+On the surface, it sounds like these investors talk about shallow topics, but I have found many valuable life-lessons in their teachings.
+I'm grateful that these people have made their teachings available to the public for free.
 
-
-My friends ,...
-
-This thesis is based on the ideas from friends, family, colleagues, mentors, and teachers in major ways.
-I would like to thank the following people by listing some ideas that they contributed.
-When there are quotation marks, the text is a literal quote.
-Otherwise, the text is my best effort to summarize an idea that people told me or taught me through their actions.
-
-\
-*Age de Wit*: Hmm yes that sounds nice in theory, but in practice it won't work because ... \
-*Frank Blaauw*: Don't focus too much on reasons why the approach might not work, but instead have some optimism and focus on why the approach might work. \
-*Hanna Tobaben*: Not everything is binary. \
-*John Boyd*, *Elon Musk*, and *Steve Jobs*: Challenge all assumptions. \
-*John von Neumann* and *Hylke Donker*: With enough free parameters, you can fit an elephant. \
-*Maurits Baatenburg de Jong*: Be humble. \
-*Nely Schutte*, *Ben Graham*, and *Warren Buffett*: "You're not right or wrong because a thousand people agree with you and you're not right or wrong because a thousand people disagree with you. You are right when your facts and reasoning are right." \
-*Peter de Jonge*: Don't forget to give sincere compliments from time to time. \
-*Ruud den Hartigh*: Don't postpone things that you can do today. \
-*Wout Huijzer*: "Gewoon rustig doorgaan." (Just calmly continue.) \
-*Yannick Hill* and *Jose Storopoli*: It's okay to sometimes complain about things, but at some point you just have to get the work done. \
-\
-To these people and the many other people who's ideas ended up in this thesis, thank you.
+Finally, thanks to Hanna for her unwaivering support.
+I think that she will be more happy than me when this PhD is finally done.
+Although it was my idea to do this, she has experienced most of the ups and downs from closeby.
+She showed me that binary thinking is not always correct.
+Maybe it works for software, but not for everything else.
+Thanks to her the downs were less deep and the ups were higher.
