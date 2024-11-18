@@ -65,7 +65,7 @@ But luckily, rustig doorgaan has worked.
 I'm very thankful for the family of my girlfriend: Barbara, Jörg, Jens, and Silvia have been very welcoming and supportive.
 
 Next to my family, friends have been very important in relativizing some of the issues that came up during the PhD.
-I would like to thank Hylke, Koen, Henry, Yannick, Jose, Mark, Sjors,  for their support.
+I would like to thank Hylke, Koen, Henry, Yannick, Jose, Mark, Sjors for their support.
 
 I'm very luckily that two friends accepted my request to be my paranimfen: Yannick and Hylke.
 Both have been very supportive in the past years.
