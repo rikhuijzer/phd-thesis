@@ -4,6 +4,14 @@
 #let fallback = true
 #set text(font: font, fallback: fallback, size: 14pt)
 
+// A5
+#set page(
+  width: 148mm,
+  height: 210mm,
+  margin: (top: 22mm, bottom: 22mm),
+  footer: none,
+)
+
 #align(center)[
   #set text(size: 20pt)
   Propositions
@@ -11,8 +19,8 @@
 \
 #align(center)[
   Belonging to the dissertation \
-  *Predicting dropout in special forces selection* \
-  by Rik Huijzer.
+  *Predicting Dropout in Special Forces Selection* \
+  by Rik Huijzer
 ]
 \
 + We can predict dropout in special forces selection reasonably well, but validation in practice is necessary (this thesis).

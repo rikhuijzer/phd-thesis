@@ -5,3 +5,8 @@ mwe.*
 titelblad.docx
 birthdate.typ
 /tmp/
+**/*.lock
+
+**/cover.pdf
+**/cover.png
+**/cover.svg

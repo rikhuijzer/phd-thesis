@@ -1,0 +1,76 @@
+#let background = image(
+  "cover.svg",
+)
+
+#set page(
+  background: background,
+  fill: black,
+  width: 170mm + 6.52mm + 170mm + 5mm + 60mm,
+  height: 244mm,
+  margin: 0mm,
+)
+
+#let font = "Montserrat"
+#set text(font: font, fallback: false, size: 22pt)
+
+#set text(
+  fill: white,
+)
+
+#let back() = [
+]
+
+#let side() = box(
+  inset: (x:-90mm,y:93mm),
+  text(size: 12pt, rotate([
+    #h(14.6em)
+    Predicting Dropout in Special Forces Selection |
+    Rik Huijzer
+  ], 90deg))
+)
+
+#let front() = [
+  #set align(center)
+  #set text(weight: 700)
+  #v(11em)
+  Predicting Dropout in \
+  Special Forces Selection
+  #v(15.8em)
+  #text(size: 14pt, [Rik Huijzer])
+]
+
+#let bookmark() = [
+  #set align(center)
+  #text(size: 14pt,
+    block([
+      #v(7em)
+      #text(size: 20pt, weight: 500, [Invitation])
+      #v(1em)
+      For attending the public defense of the thesis
+      #v(1em)
+      #text(size: 14pt, weight: 500, [_Predicting Dropout in Special Forces Selection_])
+      #v(1em)
+      by \
+      Rik Huijzer
+      #v(1em)
+      On Monday February 17th, 2025\
+      at 16:15
+      #v(2em)
+      #set text(size: 12pt)
+      The ceremony will take place at the Aula of the Academy building, University of Groningen\
+      Broerstraat 5, Groningen
+    ], inset: 2mm)
+  )
+]
+
+#let stroke = none
+
+#grid(
+  columns: (170mm, 6.52mm, 170mm, 5mm, 60mm),
+  rows: 244mm,
+  grid.cell(back(), stroke: stroke),
+  grid.cell(side(), stroke: stroke),
+  grid.cell(front(), stroke: stroke),
+  grid.cell([], stroke: stroke),
+  grid.cell(bookmark(), stroke: stroke)
+)

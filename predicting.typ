@@ -1,10 +1,6 @@
 #import "style.typ": style
 #import "functions.typ": bib, title, header, only
 
-// 1. A5 formaat? Wat is gebruikelijk in computer science?
-// 2. Is het standaard met cover omslag? Hardcover? Softcover?
-// 3. 
-
 #set page(
     width: 170mm,
     height: 240mm,
