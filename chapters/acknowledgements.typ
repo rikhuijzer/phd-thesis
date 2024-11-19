@@ -56,6 +56,9 @@ I would also like to thank the reading committee of this thesis:
 Rob Meijer, George Azzopardi, and Steven Verstockt.
 Thank you for your time and effort to read this thesis.
 
+I'm also thankful for the colleagues at the university.
+Thank you Hanneke, Joske, Solomia, Hugh, Juan, Gemma, Nicol, Bart, Niklas, Jur, Jan and others for the nice lunch breaks.
+
 Next to work, I'm thankful for the support of my parents and the family of my girlfriend.
 Wout, you have showed me "gewoon rustig doorgaan" (just calmly continue).
 You know that finishing things is not a matter of speed, but a matter of perseverance.
@@ -67,7 +70,7 @@ I'm also very thankful for the family of my girlfriend.
 Barbara, Jörg, Jens, and Silvia, you have been very welcoming and supportive throughout the years.
 
 Next to my family, friends have been very important in relativizing some of the issues that came up during the PhD.
-I would like to thank you Mark, Alex, Sjors, Koen, Henry, and Hagen for your support.
+I would like to thank you Mark, Alex, Sjors, Koen, Rodger, Henry, and Hagen for your support.
 I've spent many days or evenings with you being frustrated about something that took longer than I would have liked.
 Luckily, you were always there for a chat and from time to time laughed a bit at the situation which helped me a lot.
 Jose, thank you for your support throughout the years.
