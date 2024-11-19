@@ -1,6 +1,8 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, pagebreak_to_right
+#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, pagebreak_to_right, header
 
+#pagebreak()
+#pagebreak()
 = General Discussion
 #avoid_indent()
 We investigated whether it is possible to predict who will drop out from special forces selection.
@@ -34,6 +36,8 @@ In theory, the SIRUS model could capture these nonlinear effects better than lin
 This is because the SIRUS model is based on random forests, which functions by finding splitpoints in the data, which do not have to be linear.
 However, we did not find evidence for this when testing the model on the fragile system-based datasets such as the Haberman, breast cancer, and diabetes datasets, see Table #citefig(<perf>).
 There could be many reasons for this.
+
+#set page(header: header("Discussion"))
 One could be that our implementation of the SIRUS model was not optimal.
 Another could be that the datasets were not large enough to detect the more complex patterns.
 

@@ -19,19 +19,19 @@
 // Note the PhD Regulations University of Groningen 2022 file.
 
 // Not using hydra because I couldn't figure out how to tweak it.
-#set page(header: header("Introduction"))
+#set page(header: header(""))
 #include "chapters/introduction.typ"
-#set page(header: header("Chapter 2"))
+#set page(header: header(""))
 #include "chapters/2.typ"
-#set page(header: header("Chapter 3"))
+#set page(header: header(""))
 #include "chapters/3.typ"
-#set page(header: header("Chapter 4"))
+#set page(header: header(""))
 #include "chapters/4.typ"
-#set page(header: header("Chapter 5"))
+#set page(header: header(""))
 #include "chapters/5.typ"
-#set page(header: header("Discussion"))
+#set page(header: header(""))
 #include "chapters/discussion.typ"
-#set page(header: header("Nederlandse samenvatting"))
+#set page(header: header(""))
 #include "chapters/nederlandse-samenvatting.typ"
 
 // To go to the right side.
@@ -40,5 +40,5 @@
 #set page(header: header("Bibliography"))
 #bib()
 
-#set page(header: header("Acknowledgements"))
+#set page(header: header(""))
 #include "chapters/acknowledgements.typ"

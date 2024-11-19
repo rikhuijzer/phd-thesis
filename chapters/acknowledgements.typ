@@ -1,7 +1,7 @@
-#import "../functions.typ": avoid_indent
+#import "../functions.typ": avoid_indent, header
 
 #pagebreak()
-
+#pagebreak()
 = Acknowledgements
 #avoid_indent()
 I would like to thank everybody who supported me to make this dissertation possible.
@@ -25,7 +25,9 @@ At the time, everyone thought COVID would blow over in a few weeks and the thoug
 
 Frank, from you I have learned many things; especially that it's a good idea to have some optimism and tryout new tools.
 You have been a very reliable source of support for the most difficult software questions.
-You have a great ability to see the big picture in complex technical problems.
+You have a great 
+#set page(header: header("Acknowledgements"))
+ability to see the big picture in complex technical problems.
 This has been very helpful in the development of the software, to always have a backup for questions.
 More importantly, you always made time for a chat even when you later started to run your own company.
 

@@ -1,6 +1,7 @@
 #import "../style.typ": citefig
 #import "../functions.typ": chapter, textcite, parencite, note, header, indent
 
+#pagebreak()
 #chapter(
   [Personality Traits of Special Forces Operators: Comparing Commandos, Candidates and Controls],
   label: [
@@ -22,6 +23,8 @@ Candidates, and Controls.
     On the other hand, these results provide interesting clues for using personality traits to recruit candidates for the special forces program.
   ]
 )
+
+#set page(header: header("Chapter 2"))
 
 == Introduction
 

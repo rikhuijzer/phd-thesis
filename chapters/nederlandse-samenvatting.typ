@@ -1,5 +1,5 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent
+#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, header
 
 #pagebreak()
 = Nederlanse samenvatting (Dutch Summary)
@@ -20,7 +20,9 @@ Voor selectie leken de persoonlijkheidskenmerken niet voldoende voorspellend te 
 
 Vanaf Hoofdstuk 3 hebben wij ons meer gericht op het voorspellen van uitval.
 In onze data analyses vonden wij dat veel statistische modellen niet goed presteerden op het gebied van voorspellend vermogen, stabiliteit of uitlegbaarheid.
-Daarom hebben wij een statistisch model wat bekend staat als _Stable and Interpretable RUle Sets_ (SIRUS) opnieuw geïmplementeerd in de programmeertaal Julia.
+Daarom hebben wij een statistisch model wat bekend staat
+#set page(header: header("Nederlandse samenvatting"))
+als _Stable and Interpretable RUle Sets_ (SIRUS) opnieuw geïmplementeerd in de programmeertaal Julia.
 Het doel van deze open-source implementatie was om het model beter te begrijpen en om het model beter toe te kunnen passen op onze data.
 Tevens zorgde deze vertaling ervoor dat het aantal regels code gereduceerd kon worden.
 Dit verhoogde de leesbaarheid voor onzelf en staat hopelijk in de toekomst andere onderzoekers toe om het algorithme te verbeteren of als de basis voor nieuwe algorithmes.
