@@ -9,7 +9,7 @@ If there are parts of the thesis that are good, it is because of you.
 
 I would like to thank you, Ruud, Frank and Peter for your continuous support and guidance.
 "Challenge all assumptions" is an idea that I think is very important, but at the same time I am aware that this made me a difficult student.
-There have been many assumptions that I have challenged, where it turned out I was wrong.
+There have been many assumptions that I have challenged, where it turned out it was entirely me who was wrong.
 To make things worse, I often did not listen to your counterarguments.
 I'm very grateful that you have not given up on me or the project.
 From time to time, I have taken your advice to heart and I am grateful for your guidance.
