@@ -25,7 +25,7 @@ At the time, everyone thought COVID would blow over in a few weeks and the thoug
 
 Frank, from you I have learned many things; especially that it's a good idea to have some optimism and tryout new tools.
 You have been a very reliable source of support for the most difficult software questions.
-You have a great 
+You have a great
 #set page(header: header("Acknowledgements"))
 ability to see the big picture in complex technical problems.
 This has been very helpful in the development of the software, to always have a backup for questions.
