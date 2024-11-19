@@ -5,7 +5,7 @@
 = Acknowledgements
 #avoid_indent()
 I would like to thank everybody who supported me to make this dissertation possible.
-If there are parts of the text that are good, it is because of you.
+If there are parts of the thesis that are good, it is because of you.
 
 I would like to thank you, Ruud, Frank and Peter for your continuous support and guidance.
 "Challenge all assumptions" is an idea that I think is very important, but at the same time I am aware that this made me a difficult student.
@@ -20,8 +20,6 @@ You have also solved many of the problems that came up during the PhD.
 Like those times that you suggested a solution to difficult reviewer comments.
 I'm also still impressed by your ability to take a complex situation and express the situation or a solution in one or two sentences.
 Like when you summarzied my time management problems in one sentence, which allowed me to solve them.
-I also still remember when you in the beginning of 2020 said "I think this COVID thing might take a while".
-At the time, everyone thought COVID would blow over in a few weeks and the thought of it taking a year was unthinkable to many.
 
 Frank, from you I have learned many things; especially that it's a good idea to have some optimism and tryout new tools.
 You have been a very reliable source of support for the most difficult software questions.
@@ -32,8 +30,6 @@ This has been very helpful in the development of the software, to always have a 
 More importantly, you always made time for a chat even when you later started to run your own company.
 
 Where Peter and Frank have had to deal with my stubbornness some of the time, you, Ruud, have had to deal with it all of the time.
-My apologies to you for that.
-And probably to Steffie as well since I probably haven't always been the best for your mood.
 I'm incredibly impressed by your patience and unwaivering support.
 Each time that I talked myself into seeing some situation as unfixable, you were there to see the other side of the coin.
 And you were always available.
@@ -43,14 +39,14 @@ It has been a great pleasure to work with you.
 
 This thesis would not have been possible without the support of the Korps Commandotroepen.
 The people that I have met made me feel confident that our country's defense is in good hands.
+Thank you, Maurits, for getting this project off the ground.
+I have learned a lot from you.
+Especially about how to collaborate with people and how to remain empathetic even under pressure.
 A special thanks goes to the members of the Human Performance Team.
-Each time I visited the organization, you, Koen, Age, Wayne, and others made sure that everything was arranged.
+Each time I visited the organization, you, Koen, Age, Jaco, Wayne, and others made sure that everything was arranged.
 Next, you asked me about the research and gave useful and practical feedback.
 This has been extremely helpful to keep me on track.
 Without you, the research would probably have ended up in something that looked great in theory but didn't work in practice.
-A special thanks goes out to Maurits who got this project started.
-I have learned a lot from you.
-Especially about how to collaborate with people and how to remain empathetic even under pressure.
 
 I would also like to thank the reading committee of this thesis:
 Rob Meijer, George Azzopardi, and Steven Verstockt.
@@ -62,7 +58,7 @@ Thank you Hanneke, Joske, Solomia, Hugh, Juan, Gemma, Nicol, Bart, Niklas, Jur, 
 Next to work, I'm thankful for the support of my parents and the family of my girlfriend.
 Wout, you have showed me "gewoon rustig doorgaan" (just calmly continue).
 You know that finishing things is not a matter of speed, but a matter of perseverance.
-Without you, I would probably have dropped out halfway through the PhD.
+Without you, I might have dropped out halfway through the PhD.
 But luckily, "rustig doorgaan" has worked.
 Nely, you have always motivated me to do my best in school.
 Without you I would probably never have obtained my MSc degree, so I would never have started this PhD.
