@@ -5,13 +5,14 @@
 = Acknowledgements
 #avoid_indent()
 I would like to thank everybody who supported me to make this dissertation possible.
+If there are parts of the text that are good, it is because of you.
 
-I would like to thank my supervisors Ruud, Frank and Peter for their continuous support and guidance.
+I would like to thank you, Ruud, Frank and Peter for your continuous support and guidance.
 "Challenge all assumptions" is an idea that I think is very important, but at the same time I am aware that this made me a difficult student.
 There have been many assumptions that I have challenged, where it turned out I was wrong.
-To make things worse, I often did not listen to the counterarguments.
-I'm very grateful that Ruud, Frank and Peter have not given up on me or the project.
-From time to time, I have taken their advice to heart and I am grateful for their guidance.
+To make things worse, I often did not listen to your counterarguments.
+I'm very grateful that you have not given up on me or the project.
+From time to time, I have taken your advice to heart and I am grateful for your guidance.
 
 From you, Peter, I have learned that it not such a bad idea to give sincere compliments from time to time.
 I always thought "why give a compliment, they already know they are doing a good job", but you made me change my mind and I am very grateful for that.
@@ -19,7 +20,7 @@ You have also solved many of the problems that came up during the PhD.
 Like those times that you suggested a solution to difficult reviewer comments.
 I'm also still impressed by your ability to take a complex situation and express the situation or a solution in one or two sentences.
 Like when you summarzied my time management problems in one sentence, which allowed me to solve them.
-I still remember when you in the beginning of 2020 said "I think this COVID thing might take a while".
+I also still remember when you in the beginning of 2020 said "I think this COVID thing might take a while".
 At the time, everyone thought COVID would blow over in a few weeks and the thought of it taking a year was unthinkable to many.
 
 Frank, from you I have learned many things; especially that it's a good idea to have some optimism and tryout new tools.
@@ -39,10 +40,9 @@ All in all, I highly recommend you as a supervisor.
 It has been a great pleasure to work with you.
 
 This thesis would not have been possible without the support of the Korps Commandotroepen.
-I will keep this short out of respect for the privacy of the special forces, but let me say this:
 The people that I have met made me feel confident that our country's defense is in good hands.
 A special thanks goes to the members of the Human Performance Team.
-Each time I visited the organization, you, Koen, Age, and Wayne made sure that everything was arranged.
+Each time I visited the organization, you, Koen, Age, Wayne, and others made sure that everything was arranged.
 Next, you asked me about the research and gave useful and practical feedback.
 This has been extremely helpful to keep me on track.
 Without you, the research would probably have ended up in something that looked great in theory but didn't work in practice.
@@ -51,7 +51,7 @@ I have learned a lot from you.
 Especially about how to collaborate with people and how to remain empathetic even under pressure.
 
 I would also like to thank the reading committee of this thesis:
-Rob Meijer, George Azzopardi, Steven Verstockt.
+Rob Meijer, George Azzopardi, and Steven Verstockt.
 Thank you for your time and effort to read this thesis.
 
 Next to work, I'm thankful for the support of my parents and the family of my girlfriend.
@@ -61,12 +61,18 @@ Without you, I would probably have dropped out halfway through the PhD.
 But luckily, "rustig doorgaan" has worked.
 Nely, you have always motivated me to do my best in school.
 Without you I would probably never have obtained my MSc degree, so I would never have started this PhD.
-I'm also very thankful for the family of my girlfriend: Barbara, Jörg, Jens, and Silvia, you have been very welcoming and supportive throughout the years.
+I'm also very thankful for the family of my girlfriend.
+Barbara, Jörg, Jens, and Silvia, you have been very welcoming and supportive throughout the years.
 
 Next to my family, friends have been very important in relativizing some of the issues that came up during the PhD.
-I would like to thank you Mark, Jose, Sjors, Koen, Henry, for their support.
+I would like to thank you Mark, Jose, Sjors, Koen, Henry, for your support.
 I've spent many evenings with you being frustrated about something that took longer than I would have liked.
 Luckily, you were always there for a chat and from time to time laughed a bit at the situation which helped me a lot.
+Jose, thank you for your support throughout the years.
+You have always been there for quick software or statistical questions.
+I'm very grateful for the many times that you were there to listen and give advice.
+I'm also very grateful for when you invited me to write a book together.
+It led to a crazy half year, but I learned a lot from you.
 
 I'm very luckily that two friends accepted my request to be my paranimfen: Yannick and Hylke.
 Thank you both for your support throughout the years.
