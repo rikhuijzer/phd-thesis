@@ -67,8 +67,8 @@ I'm also very thankful for the family of my girlfriend.
 Barbara, Jörg, Jens, and Silvia, you have been very welcoming and supportive throughout the years.
 
 Next to my family, friends have been very important in relativizing some of the issues that came up during the PhD.
-I would like to thank you Mark, Jose, Sjors, Koen, Henry, for your support.
-I've spent many evenings with you being frustrated about something that took longer than I would have liked.
+I would like to thank you Mark, Alex, Sjors, Koen, Henry, and Hagen for your support.
+I've spent many days or evenings with you being frustrated about something that took longer than I would have liked.
 Luckily, you were always there for a chat and from time to time laughed a bit at the situation which helped me a lot.
 Jose, thank you for your support throughout the years.
 You have always been there for quick software or statistical questions.
