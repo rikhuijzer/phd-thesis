@@ -53,7 +53,7 @@ Rob Meijer, George Azzopardi, and Steven Verstockt.
 Thank you for your time and effort to read this thesis.
 
 I'm also thankful for the colleagues at the university.
-Thank you Hanneke, Joske, Solomia, Hugh, Juan, Gemma, Nicol, Bart, Niklas, Jur, Jan and others for the nice lunch breaks.
+Thank you Hanneke, Solomiia, Hugh, Joske, Juan, Gemma, Nicol, Bart, Niklas, Jur, Jan and others for the _gezellige_ dinners and lunch breaks.
 
 Next to work, I'm thankful for the support of my parents and the family of my girlfriend.
 Wout, you have showed me "gewoon rustig doorgaan" (just calmly continue).
