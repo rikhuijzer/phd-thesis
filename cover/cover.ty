@@ -55,11 +55,11 @@
       #v(1em)
       On Monday February 17th, 2025\
       at 16:15
-      #v(2em)
+      #v(1em)
       #set text(size: 12pt)
       The ceremony will take place at the Aula of the Academy building, University of Groningen\
       Broerstraat 5, Groningen
-      #v(1em)
+      #v(0.8em)
       #text(size: 12pt, weight: 300, [Paranimfen:])\
       #v(0.5em)
       Yannick Hill\
