@@ -21,6 +21,7 @@ jobs:
       - name: Remove title page
         run: |
           sed -i '\|#include "title-page.typ"|d' ./predicting.typ
+          sed -i '\|#include "chapters/acknowledgements.typ"|d' ./predicting.typ
           sed -i '\|#pagebreak() // For title page.|d' ./predicting.typ
 
       - name: Fix page numbers in toc
