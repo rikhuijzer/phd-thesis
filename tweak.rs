@@ -1,6 +1,3 @@
-// write code that reads "predicting.typ" and removes one line containing "predicting" and writes
-// the rest to "predicting.typ"
-
 use std::fs::File;
 use std::io::Write;
 
