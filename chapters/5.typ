@@ -1,5 +1,5 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note
+#import "../functions.typ": chapter, textcite, header, parencite, note
 
 #chapter(
   [Early Identification of Dropouts During the Special Forces Selection Program],
@@ -21,6 +21,8 @@
     This offers opportunities for early intervention and support, which could ultimately improve selection success rates.
   ]
 )
+
+#set page(header: header("Chapter 5"))
 
 == Introduction
 
@@ -75,7 +77,7 @@ In line with recommendations from previous literature, we specifically focused o
 We compared various classical and state-of-the-art machine learning models via cross-validation.
 In addition, we explored the moment at which valid predictions of dropout could be made (e.g., one day, one week, or three weeks in advance).
 Such knowledge could lead to a better understanding of the dropout process, and to targeted interventions in practice.
-
+#v(1em)
 #block([
 == Method
 
@@ -87,7 +89,7 @@ The information letter informed participants about the study's purpose, procedur
 The participants were diverse in terms of their military experience, with some being new recruits while others had prior experience in different branches of the armed forces.
 Due to the sensitive nature of the data, more detailed information about the participants could not be made available.
 ], breakable: false)
-
+#v(1em)
 #block[
 === Measures
 
@@ -176,7 +178,7 @@ The positive coefficients indicate that recruits who score higher of self-effica
 
 #figure(
   {
-    set text(size: 10pt)
+    set text(size: 9.5pt)
     table(
       columns: (auto, auto, auto, auto, auto, auto),
       align: (left, right, right, right, right, right),

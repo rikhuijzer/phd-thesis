@@ -149,7 +149,7 @@
         }
   )
 
-  set text(font: font, fallback: fallback, size: 13pt, top-edge: 1em)
+  set text(font: font, fallback: fallback, size: 12pt, top-edge: 1em)
   set par(spacing: 0.7em)
 
   // Includes code blocks and inline code.

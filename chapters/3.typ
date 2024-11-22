@@ -1,5 +1,5 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note
+#import "../functions.typ": chapter, textcite, parencite, note, header
 
 // Ensure the page falls on the right side.
 #pagebreak()
@@ -21,6 +21,7 @@ We show that the model performs well on classification tasks while retaining int
   ]
 )
 
+#set page(header: header("Chapter 3"))
 == Statement of need
 
 Many of the modern day machine learning models are noninterpretable models, also known as _black box_ models.
@@ -142,7 +143,7 @@ The result for the Iris dataset for the original SIRUS algorithm is missing beca
 
 #figure(
   {
-    set text(size: 9pt)
+    set text(size: 8.2pt)
     let param(txt) = text(txt, size: 6pt, weight: "bold")
     table(
       columns: (auto, auto, auto, auto, auto, auto, auto),

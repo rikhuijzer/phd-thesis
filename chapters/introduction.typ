@@ -1,5 +1,5 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, pagebreak_to_right
+#import "../functions.typ": chapter, textcite, parencite, note, avoid_indent, pagebreak_to_right, header
 
 #pagebreak_to_right()
 = Introduction
@@ -15,7 +15,6 @@ With that in mind, is it still possible to predict who will drop out and who wil
 The field that investigates this question is called _personnel selection_.
 
 == Personnel Selection
-
 The field of personnel selection is built on a long history of research in psychology and statistics.
 One of the pioneers in this field was Francis Galton in the 1880s, when he invented regression and correlation analysis, and invented the term psychometrics @gillham2001galton.
 He was interested in measuring mental ability to select capable individuals, but his tests were mostly limited to tests for mental imagery, sight, hearing, and bodily strength and size @gillham2001galton.
@@ -38,6 +37,7 @@ In the 1970s, they funded the precursor to GPS @parkinson1983navstar and compute
 In the 1980s they funded the precursor for modern screens @florida1991invention and more AI research @roland2002strategic.
 After a lack of progress for AI in that decade, a new system called High Performance Computing (HPC) was introduced in the 1990s for DARPA @roland2002strategic.
 
+#set page(header: header("Introduction"))
 A reason why many innovations have come from the military could be that they have large problems that need to be solved quickly @housel2023same.
 For example, the launch of the Sputniks satellite in 1957 by the Soviet Union led to fear in Western nations that they were falling behind in technology.
 In response, DARPA and NASA were founded in 1958.
@@ -189,7 +189,7 @@ Later, the ROC curve was used not only for radar systems, but for many problems 
 These were some of the tools that we used in this thesis.
 The aim being to investigate the data in a statistically sound way.
 With these tools, we aimed to answer the question of who will make it through the commando training and who will dropout.
-
+#v(1em)
 #block([
 == Thesis Chapters
 

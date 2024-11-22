@@ -1,5 +1,5 @@
 #import "../style.typ": citefig
-#import "../functions.typ": chapter, textcite, parencite, note
+#import "../functions.typ": chapter, textcite, parencite, note, header
 
 #chapter(
   [Predicting Special Forces Dropout via Explainable Machine Learning],
@@ -22,6 +22,8 @@
     We discuss how researchers and practitioners can benefit from these insights in sport and performance contexts.
   ]
 )
+
+#set page(header: header("Chapter 4"))
 
 == Introduction
 

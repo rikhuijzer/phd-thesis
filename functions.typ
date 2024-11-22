@@ -99,7 +99,6 @@
   let num = only(counter(page).get())
   let is_left_page = calc.even(num)
   set text(size: 9pt)
-  set text(fill: gray)
   if is_left_page [
     #upper(title())
   ] else [
