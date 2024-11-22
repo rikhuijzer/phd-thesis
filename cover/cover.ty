@@ -43,7 +43,7 @@
   #set align(center)
   #text(size: 14pt,
     block([
-      #v(7em)
+      #v(5em)
       #text(size: 20pt, weight: 500, [Invitation])
       #v(1em)
       For attending the public defense of the thesis
@@ -59,7 +59,16 @@
       #set text(size: 12pt)
       The ceremony will take place at the Aula of the Academy building, University of Groningen\
       Broerstraat 5, Groningen
-    ], inset: 2mm)
+      #v(1em)
+      #text(size: 12pt, weight: 300, [Paranimfen:])\
+      #v(0.5em)
+      Yannick Hill\
+      _y.hill\@vu.nl_
+      #v(0.5em)
+
+      Hylke Donker\
+      _h.c.donker\@umcg.nl_
+    ], inset: 3mm)
   )
 ]
 
