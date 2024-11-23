@@ -66,32 +66,26 @@ I'm also very thankful for the family of my girlfriend.
 Barbara, Jörg, Jens, and Silvia, you have been very welcoming and supportive throughout the years.
 
 Next to my family, friends have been very important in relativizing some of the issues that came up during the PhD.
-I would like to thank you Mark, Alex, Sjors, Koen, Rodger, Henry, and Hagen for your support.
+I would like to thank you Mark, Alex, Hylke, Sjors, Koen, Rodger, Henry, and Hagen for your support.
 I've spent many days or evenings with you being frustrated about something that took longer than I would have liked.
 Luckily, you were always there for a chat and from time to time laughed a bit at the situation which helped me a lot.
+
 Jose, thank you for your support throughout the years.
 You have always been there for quick software or statistical questions.
 I'm very grateful for the many times that you were there to listen and give advice.
 I'm also very grateful for when you invited me to write a book together.
 It led to a crazy half year, but I learned a lot from you.
-
-I'm very luckily that two friends accepted my request to be my paranimfen: Yannick and Hylke.
-Thank you both for your support throughout the years.
-Yannick, you have often explained to me in words that I could understand why I was wrong.
+Yannick, thanks to you too for your support.
+You have often explained to me in words that I could understand why I was wrong.
 You have also set a great example of how to be productive while still having a good work-life balance.
-I still remember that time we called Sunday evening at 21:30 and you said you should hang up because you still had to go home.
+I still remember that time when we had our regular Sunday evening chat/call and at 21:30 you said you should hang up because you still had to go home.
 I asked you where you were and you said "I'm at the university".
-I have tons of respect for your ability to work hard but still take time off when necessary.
-Hylke, you have been very supportive in the past years.
-You were the one who gave helpful feedback on my MSc thesis years ago and who again gave helpful feedback on various papers.
-Especially the visualizations of the SIRUS model were greatly improved by you.
-Also, I've learned many statistical things from you.
-You have always been there for algorithmic discussions and a beer.
-I'm very grateful for both your support and I'm looking forward to doing the defense with you.
+I have learned a lot from you on how to work hard but still have a relaxed attitude when things take longer than expected.
 
 Finally, thank you Hanna for all your support.
 I think that you will be more happy than me when this PhD is finally done.
 Although it was my idea to do this, you have experienced most of the ups and downs from closeby.
 You showed me that binary thinking is not always correct.
 Maybe it works for software, but not always for the real world.
+You were always the first to hear it when things were not going well, and to motivate me to keep going.
 Thanks to you, the downs were less deep and the ups were higher.
