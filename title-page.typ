@@ -54,10 +54,10 @@
   *Teunis Hendrik Huijzer*
 ]
 
-#align(center)[
-  born on
-  #include("birthdate.typ")
-]
+// #align(center)[
+//  born on
+//  #include("birthdate.typ")
+// ]
 
 #pagebreak()
 

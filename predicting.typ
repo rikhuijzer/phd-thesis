@@ -40,5 +40,5 @@
 #set page(header: header("Bibliography"))
 #bib()
 
-#set page(header: header(""))
-#include "chapters/acknowledgements.typ"
+// #set page(header: header(""))
+// #include "chapters/acknowledgements.typ"
